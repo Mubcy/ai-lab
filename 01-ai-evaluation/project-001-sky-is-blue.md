@@ -187,7 +187,7 @@ Excellent structure and accuracy but slightly more verbose.
 
 🥉 **3rd — Gemini**
 
-Highly accurate but includes unnecessary technical detail for the prompt.
+Highly accurate but includes unnecessary technical detail for the prompt
 
 ---
 
