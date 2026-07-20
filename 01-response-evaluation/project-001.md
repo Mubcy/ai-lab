@@ -50,10 +50,30 @@ The sky appears blue because of a phenomenon called **Rayleigh scattering**. Her
 
 # Response C
 
-The sky appears blue due to a phenomenon called Rayleigh scattering, which describes how light interacts with the tiny gas molecules in Earth's atmosphere.How Rayleigh Scattering WorksSunlight is a mix of all colors: Although light from the Sun looks white to us, it is made up of all the colors of the rainbow. 
-Each color travels in waves, but their wavelengths differ:Red, orange, and yellow have longer, wider wavelengths (~650–700 nm).Blue and violet have much shorter, choppier wavelengths (~400–450 nm).
-Bouncing off gas molecules: Earth's atmosphere is packed with nitrogen and oxygen molecules. Because blue light travels in short, tight waves, it hits these small gas particles far more frequently than red or yellow light does.Scattering in every direction: When blue light collides with nitrogen and oxygen, it bounces off in all directions. As you look up during the day, you see this scattered blue light filling the entire sky.Why Blue Instead of Violet?Violet light actually has an even shorter wavelength than blue, meaning it scatters even more intensely. However, the sky doesn't look violet for two reasons:Solar output: Sunlight contains significantly more blue light than violet light.Human vision: The color receptors (cones) in human eyes are much more sensitive to blue wavelengths than to violet wavelengths.Why are sunsets red? When the Sun sets, its rays travel through a much thicker layer of atmosphere to reach your eyes. By the time the light arrives, most of the blue light has scattered away, leaving the longer red, orange, and yellow wavelengths to pass straight through.
+The sky appears blue due to a phenomenon called **Rayleigh scattering**, which describes how light interacts with the tiny gas molecules in Earth's atmosphere.
 
+---
+
+### How Rayleigh Scattering Works
+
+1. **Sunlight is a mix of all colors:** Although light from the Sun looks white to us, it is made up of all the colors of the rainbow. Each color travels in waves, but their wavelengths differ:
+* **Red, orange, and yellow** have longer, wider wavelengths (~650–700 nm).
+* **Blue and violet** have much shorter, choppier wavelengths (~400–450 nm).
+
+
+2. **Bouncing off gas molecules:** Earth's atmosphere is packed with nitrogen and oxygen molecules. Because blue light travels in short, tight waves, it hits these small gas particles far more frequently than red or yellow light does.
+3. **Scattering in every direction:** When blue light collides with nitrogen and oxygen, it bounces off in all directions. As you look up during the day, you see this scattered blue light filling the entire sky.
+
+---
+
+### Why Blue Instead of Violet?
+
+Violet light actually has an even shorter wavelength than blue, meaning it scatters even *more* intensely. However, the sky doesn't look violet for two reasons:
+
+* **Solar output:** Sunlight contains significantly more blue light than violet light.
+* **Human vision:** The color receptors (cones) in human eyes are much more sensitive to blue wavelengths than to violet wavelengths.
+
+> **Why are sunsets red?** When the Sun sets, its rays travel through a much thicker layer of atmosphere to reach your eyes. By the time the light arrives, most of the blue light has scattered away, leaving the longer red, orange, and yellow wavelengths to pass straight through.
 
 ---
 
