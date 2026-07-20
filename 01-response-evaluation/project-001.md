@@ -151,6 +151,7 @@ Response A → ChatGPT
 Response B → Claude
 
 Response C → Gemini
+
 ---
 
 # Final Ranking
