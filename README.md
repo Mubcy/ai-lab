@@ -1,21 +1,19 @@
 # AI Lab
 
-A portfolio documenting my work in AI evaluation, prompt engineering, reasoning, research, technical writing, and quality assurance.
+A practical portfolio demonstrating AI evaluation, prompt engineering, fact-checking, research, safety analysis, technical writing, and quality assurance.
 
-This repository contains practical projects inspired by real-world AI evaluation tasks used by leading AI companies.
+This repository contains hands-on projects inspired by real-world assessments used by leading AI companies including Mercor, Alignerr, micro1, Surge AI, Turing, and other AI model evaluation platforms.
 
-## Focus Areas
+## Skills Demonstrated
 
 - AI Response Evaluation
 - Prompt Engineering
 - Hallucination Detection
 - Fact Checking
 - Safety Evaluation
-- Technical Writing
 - Research
-- Quality Assurance
+- Technical Writing
 - Code Evaluation
+- Quality Assurance
 
-## Goal
-
-Build practical experience in evaluating and improving large language models through structured projects and case studies.
+Each project documents the evaluation process, reasoning, scoring methodology, and lessons learned.
