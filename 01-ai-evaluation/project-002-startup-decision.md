@@ -20,39 +20,63 @@ Evaluate how different AI models reason through an ambiguous startup scenario. T
 
 ### Response A
 
-There isn't a single correct answer. The right choice depends on what is currently preventing the company from surviving and growing.
+There isn't a single correct answer. The right choice depends on **what is currently preventing the company from surviving and growing**.
+
 A useful way to think about it is:
-Invest in the biggest bottleneck.
-Scenario 1: The product is already good enough, but customers are lacking
-The startup should generally prioritize customer acquisition.
+
+> **Invest in the biggest bottleneck.**
+
+### Scenario 1: The product is already good enough, but customers are lacking
+
+The startup should generally prioritize **customer acquisition**.
+
 Why:
-Revenue extends the company's runway.
-Customer feedback validates product-market fit.
-More users make the company more attractive to investors.
-Additional engineers won't help if no one is using the product.
+
+* Revenue extends the company's runway.
+* Customer feedback validates product-market fit.
+* More users make the company more attractive to investors.
+* Additional engineers won't help if no one is using the product.
+
 For example, if the startup has a working SaaS product with happy early users but only a few dozen customers, spending the remaining cash on sales, marketing, or partnerships is often the higher-return investment.
-Scenario 2: The product is not yet usable
-The startup should prioritize engineering.
+
+### Scenario 2: The product is not yet usable
+
+The startup should prioritize **engineering**.
+
 Why:
-If the product is buggy, unreliable, or missing essential features, acquiring customers may be wasteful because they'll churn quickly.
-A strong product creates a better foundation for future growth.
+
+* If the product is buggy, unreliable, or missing essential features, acquiring customers may be wasteful because they'll churn quickly.
+* A strong product creates a better foundation for future growth.
+
 However, even then, hiring should be targeted. A $50,000 cash balance is a small runway, so hiring multiple full-time engineers may not be feasible.
-The financial reality
-With only $50,000 remaining:
-The startup likely has only a few months of runway, depending on burn rate.
-Every hiring decision is expensive and increases fixed costs.
-Hiring is difficult to reverse if revenue doesn't materialize.
+
+### The financial reality
+
+With only **$50,000** remaining:
+
+* The startup likely has only a few months of runway, depending on burn rate.
+* Every hiring decision is expensive and increases fixed costs.
+* Hiring is difficult to reverse if revenue doesn't materialize.
+
 Because of this, preserving runway is usually critical.
-A balanced approach
+
+### A balanced approach
+
 Many founders would avoid making a permanent hire immediately and instead:
-Keep the engineering team lean.
-Fix only the highest-priority product issues.
-Focus the majority of effort on getting paying customers.
-Use contractors or freelancers for specific engineering tasks if necessary.
-My conclusion
-If the product is already good enough to deliver value, I would prioritize acquiring more customers. A startup without customers has no business, while customer traction can generate revenue, validate demand, and make future fundraising or hiring much easier.
-If the product is not yet capable of retaining customers, then engineering should come first—but only enough to remove the key product bottleneck before shifting focus back to growth.
+
+* Keep the engineering team lean.
+* Fix only the highest-priority product issues.
+* Focus the majority of effort on getting paying customers.
+* Use contractors or freelancers for specific engineering tasks if necessary.
+
+### My conclusion
+
+If the product is **already good enough to deliver value**, I would prioritize **acquiring more customers**. A startup without customers has no business, while customer traction can generate revenue, validate demand, and make future fundraising or hiring much easier.
+
+If the product is **not yet capable of retaining customers**, then engineering should come first—but only enough to remove the key product bottleneck before shifting focus back to growth.
+
 In short, the decision should be driven by the startup's primary constraint, not by a general rule.
+
 
 
 ---
