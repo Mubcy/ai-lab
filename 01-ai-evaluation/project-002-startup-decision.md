@@ -275,31 +275,6 @@ This exercise reinforced that evaluating AI-generated reasoning is not about agr
 
 ---
 
-## Reflection
-
-### What I Learned
-
-- Strong AI responses acknowledge uncertainty when important context is missing.
-- Practical recommendations should be supported by clear reasoning rather than confident assertions.
-- Evaluating trade-offs is often more valuable than identifying a single "correct" answer.
-
-### What I'd Do Differently
-
-- Support more evaluation points with direct evidence from each response.
-- Be more conservative when assigning perfect scores.
-- Focus more on identifying subtle differences between high-quality responses.
-
-### Skills Demonstrated
-
-- AI Response Evaluation
-- Critical Reasoning
-- Comparative Analysis
-- Decision Making
-- Structured Evaluation
-- Technical Writing
-
----
-
 ## Model Mapping
 
 | Response | Model |
