@@ -1,0 +1,208 @@
+# Project 004 — Prompt Debugging
+
+## Date
+
+2026-07-22
+
+## Category
+
+Prompt Engineering
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Prompt Debugging, Prompt Optimization, Instruction Clarity
+
+---
+
+# Objective
+
+Analyze a poorly performing prompt, identify why it produces inconsistent AI responses, and improve it while preserving the original intent.
+
+---
+
+# Scenario
+
+A content writer wants AI to generate social media posts for a new coffee shop.
+
+However, the generated responses are inconsistent in tone, length, and quality.
+
+---
+
+# Original Prompt
+
+> Write a social media post about our coffee shop.
+
+---
+
+# Prompt Analysis
+
+## Issue 1 — No Target Audience
+
+### Observation
+
+The prompt does not specify who the post is intended for.
+
+### Problem
+
+The AI may generate content aimed at coffee enthusiasts, students, business professionals, tourists, or a general audience.
+
+**Severity:** High
+
+**Confidence:** High
+
+---
+
+## Issue 2 — No Platform Specified
+
+### Observation
+
+The social media platform is unknown.
+
+### Problem
+
+A LinkedIn post differs significantly from content designed for Instagram or X.
+
+**Severity:** High
+
+**Confidence:** High
+
+---
+
+## Issue 3 — Missing Tone
+
+### Observation
+
+No writing style is specified.
+
+### Problem
+
+The AI could generate a formal, humorous, promotional, or conversational post.
+
+**Severity:** Medium
+
+**Confidence:** High
+
+---
+
+## Issue 4 — No Length Constraint
+
+### Observation
+
+The prompt does not define the expected length.
+
+### Problem
+
+Responses may vary from one sentence to several paragraphs.
+
+**Severity:** Medium
+
+**Confidence:** High
+
+---
+
+## Issue 5 — No Call to Action
+
+### Observation
+
+The prompt does not encourage customer engagement.
+
+### Problem
+
+The generated post may fail to drive visits, comments, or purchases.
+
+**Severity:** Medium
+
+**Confidence:** High
+
+---
+
+# Improved Prompt
+
+Write an Instagram post promoting a local coffee shop's new seasonal latte.
+
+Requirements:
+
+- Target young professionals and university students.
+- Keep the post between **80 and 120 words**.
+- Use a warm and conversational tone.
+- Mention the handcrafted ingredients.
+- Include one coffee-related emoji.
+- End with a call to action encouraging customers to visit this week.
+- Include exactly three relevant hashtags.
+
+---
+
+# Comparison
+
+| Aspect | Original Prompt | Improved Prompt |
+|---------|-----------------|-----------------|
+| Audience | ❌ Not defined | ✅ Clearly defined |
+| Platform | ❌ Unknown | ✅ Instagram |
+| Tone | ❌ Missing | ✅ Conversational |
+| Length | ❌ Unspecified | ✅ 80–120 words |
+| CTA | ❌ Missing | ✅ Included |
+| Hashtags | ❌ Unspecified | ✅ Exactly three |
+
+---
+
+# Expected Improvements
+
+The revised prompt is expected to produce responses that are:
+
+- More consistent
+- Better targeted to the intended audience
+- Easier to evaluate
+- More engaging
+- Better suited for Instagram marketing
+
+---
+
+# Prompt Engineering Principles Applied
+
+- Defined the target audience.
+- Specified the platform.
+- Added measurable constraints.
+- Specified tone and style.
+- Included a clear objective.
+- Reduced ambiguity.
+- Added engagement requirements.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Prompt debugging is about identifying missing information that causes inconsistent AI outputs. Small changes, such as specifying the audience, platform, tone, and measurable constraints, can significantly improve response quality without changing the original objective.
+
+---
+
+## What I'd Do Differently
+
+Compare outputs from the original and improved prompts across multiple AI models to evaluate whether the refinements consistently improve quality.
+
+---
+
+# Skills Demonstrated
+
+- Prompt Engineering
+- Prompt Debugging
+- Instruction Design
+- Prompt Optimization
+- Critical Thinking
+- AI Interaction Design
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Successfully Debugged
+
+**Reason**
+
+The revised prompt preserves the original intent while introducing clear constraints that reduce ambiguity and improve the consistency, relevance, and quality of AI-generated responses.
