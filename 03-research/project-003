@@ -1,0 +1,179 @@
+# Project 003 — Bias Detection in Research
+
+## Date
+
+2026-07-22
+
+## Category
+
+Research
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Bias Detection, Critical Analysis, Research Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated research summary to identify potential bias, emotional language, one-sided arguments, and missing perspectives. Assess whether the response presents information objectively and fairly.
+
+---
+
+# Research Question
+
+> Should governments ban social media for children under 16?
+
+---
+
+# AI Response
+
+Social media should absolutely be banned for children under 16 because it causes anxiety, depression, poor academic performance, and addiction. Parents cannot effectively monitor children's online activities, so government intervention is the only realistic solution. Countries that fail to ban social media are putting children's mental health at serious risk. Although some people argue that social media helps young people stay connected, these benefits are insignificant compared to the overwhelming harm it causes.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Objectivity | Is the response neutral and balanced? |
+| Evidence Quality | Are claims supported by evidence? |
+| Language | Does it avoid emotional or persuasive wording? |
+| Perspective Coverage | Are multiple viewpoints considered? |
+| Fairness | Are opposing arguments represented accurately? |
+| Overall Quality | Overall research quality |
+
+---
+
+# Bias Analysis
+
+## Issue 1
+
+### Observation
+
+The response uses absolute language such as **"absolutely"**, **"only realistic solution"**, and **"overwhelming harm."**
+
+### Problem
+
+Absolute statements present opinions as facts without acknowledging uncertainty or varying evidence.
+
+**Severity:** High
+
+---
+
+## Issue 2
+
+### Observation
+
+No evidence or references are provided.
+
+### Problem
+
+Major claims about mental health and academic performance are presented without supporting research.
+
+**Severity:** High
+
+---
+
+## Issue 3
+
+### Observation
+
+Opposing viewpoints receive very little attention.
+
+### Problem
+
+The response briefly mentions one potential benefit but dismisses it without discussion or evidence.
+
+**Severity:** Medium
+
+---
+
+## Issue 4
+
+### Observation
+
+The conclusion strongly favors one policy option.
+
+### Problem
+
+The response fails to explore alternative approaches such as parental controls, digital literacy education, age verification, or supervised access.
+
+**Severity:** Medium
+
+---
+
+## Issue 5
+
+### Observation
+
+The wording encourages persuasion rather than objective analysis.
+
+### Problem
+
+Research summaries should inform readers instead of attempting to convince them.
+
+**Severity:** Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Objectivity | 2 |
+| Evidence Quality | 2 |
+| Language | 2 |
+| Perspective Coverage | 2 |
+| Fairness | 3 |
+| Overall | 2.2 |
+
+---
+
+# Improved Research Summary
+
+Research on social media use among children and adolescents suggests both potential benefits and risks. Studies have linked excessive social media use with issues such as anxiety, poor sleep, cyberbullying, and reduced academic performance in some groups. However, social media can also provide opportunities for communication, learning, creativity, and social support.
+
+Whether governments should ban social media for children under 16 remains a subject of debate. Supporters argue that restrictions could help protect young people's mental health and online safety, while opponents emphasize parental responsibility, digital literacy, and the potential benefits of responsible technology use.
+
+A balanced conclusion should acknowledge that current evidence is complex and that different policy approaches may achieve similar goals.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Research should distinguish between evidence and opinion. Emotional language, unsupported conclusions, and selective presentation of information can introduce bias even when some underlying claims are accurate.
+
+---
+
+## What I'd Do Differently
+
+Compare multiple peer-reviewed studies and policy reports from different organizations before reaching a conclusion, ensuring that both supporting and opposing evidence are fairly represented.
+
+---
+
+# Skills Demonstrated
+
+- Bias Detection
+- Critical Thinking
+- Research Evaluation
+- Evidence Assessment
+- Information Analysis
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ⚠️ Requires Major Revisions
+
+**Reason**
+
+The response addresses the topic but lacks neutrality, supporting evidence, and balanced discussion. Its persuasive language and limited consideration of alternative viewpoints reduce its value as an objective research summary. A stronger response would present evidence from multiple perspectives and avoid unsupported conclusions.
