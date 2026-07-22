@@ -28,15 +28,15 @@ The objective is to demonstrate the ability to critically evaluate information r
 | Project | Topic | Status |
 |----------|-------|--------|
 | Project 001 | Research Quality Evaluation | ✅ |
-| Project 002 | Source Credibility Assessment | ⬜ |
-| Project 003 | Bias Detection in Research | ⬜ |
-| Project 004 | Comparing Multiple Sources | ⬜ |
-| Project 005 | Research Gap Analysis | ⬜ |
-| Project 006 | Literature Review Evaluation | ⬜ |
-| Project 007 | Evidence Strength Assessment | ⬜ |
-| Project 008 | Research Synthesis | ⬜ |
-| Project 009 | Conflicting Evidence Analysis | ⬜ |
-| Project 010 | End-to-End Research Audit | ⬜ |
+| Project 002 | Source Credibility Assessment | ✅ |
+| Project 003 | Bias Detection in Research | ✅ |
+| Project 004 | Comparing Multiple Sources | ✅ |
+| Project 005 | Research Gap Analysis | ✅ |
+| Project 006 | Literature Review Evaluation | ✅ |
+| Project 007 | Evidence Strength Assessment | ✅ |
+| Project 008 | Research Synthesis | ✅ |
+| Project 009 | Conflicting Evidence Analysis | ✅ |
+| Project 010 | End-to-End Research Audit | ✅ |
 
 ---
 
