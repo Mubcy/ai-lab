@@ -1,0 +1,206 @@
+# Project 005 — Research Gap Analysis
+
+## Date
+
+2026-07-22
+
+## Category
+
+Research
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Research Gap Analysis, Critical Evaluation, Information Completeness
+
+---
+
+# Objective
+
+Evaluate an AI-generated research summary to identify important missing information, overlooked perspectives, and unanswered questions. Assess whether the research provides sufficient coverage of the topic before recommending improvements.
+
+---
+
+# Research Question
+
+> What are the benefits and risks of using artificial intelligence in healthcare?
+
+---
+
+# AI Response
+
+Artificial intelligence is transforming healthcare by helping doctors diagnose diseases faster and improving medical imaging. AI systems can analyze large amounts of patient data and assist healthcare professionals in making clinical decisions. Hospitals are increasingly adopting AI because it improves efficiency and reduces operational costs.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Relevance | Does the response answer the research question? |
+| Completeness | Are major aspects of the topic covered? |
+| Gap Identification | Are important topics missing? |
+| Balance | Are both benefits and risks discussed? |
+| Clarity | Is the information well organized? |
+| Overall Quality | Overall usefulness of the research |
+
+---
+
+# Research Gap Analysis
+
+## Gap 1
+
+### Observation
+
+The response discusses only the benefits of AI.
+
+### Why It Matters
+
+The research question explicitly asks about both benefits and risks. Omitting risks creates an incomplete and potentially misleading summary.
+
+**Severity:** High
+
+---
+
+## Gap 2
+
+### Observation
+
+No discussion of patient privacy or data security.
+
+### Why It Matters
+
+Healthcare AI relies heavily on sensitive patient information. Privacy, cybersecurity, and regulatory compliance are central concerns in AI adoption.
+
+**Severity:** High
+
+---
+
+## Gap 3
+
+### Observation
+
+Algorithmic bias is not mentioned.
+
+### Why It Matters
+
+AI systems trained on biased datasets may produce unfair or inaccurate outcomes for certain patient populations, potentially affecting quality of care.
+
+**Severity:** High
+
+---
+
+## Gap 4
+
+### Observation
+
+No mention of ethical or legal considerations.
+
+### Why It Matters
+
+Topics such as accountability, informed consent, transparency, and medical liability are important when deploying AI in healthcare.
+
+**Severity:** Medium
+
+---
+
+## Gap 5
+
+### Observation
+
+The response lacks supporting evidence.
+
+### Why It Matters
+
+Claims about efficiency and diagnostic improvements should be supported with research findings or references to credible studies.
+
+**Severity:** Medium
+
+---
+
+## Gap 6
+
+### Observation
+
+No limitations of AI are discussed.
+
+### Why It Matters
+
+AI should support—not replace—clinical judgment. Human oversight remains essential in many medical decisions.
+
+**Severity:** Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Relevance | 5 |
+| Completeness | 2 |
+| Gap Identification | 2 |
+| Balance | 2 |
+| Clarity | 5 |
+| Overall | 3.2 |
+
+---
+
+# Improved Research Summary
+
+Artificial intelligence is increasingly used in healthcare to support disease diagnosis, medical imaging, drug discovery, patient monitoring, and administrative tasks. Potential benefits include faster diagnoses, improved operational efficiency, personalized treatment recommendations, and better use of healthcare resources.
+
+However, AI adoption also presents significant challenges. These include concerns about patient privacy, cybersecurity, algorithmic bias, transparency, regulatory compliance, and accountability for clinical decisions. AI systems may also perform differently across patient populations depending on the quality and diversity of training data.
+
+Current research suggests that AI is most effective when used to support healthcare professionals rather than replace human clinical judgment. A balanced evaluation should consider both its opportunities and limitations while relying on evidence from peer-reviewed research.
+
+---
+
+# Key Research Gaps Summary
+
+| Missing Topic | Importance |
+|---------------|------------|
+| Patient privacy | High |
+| Data security | High |
+| Algorithmic bias | High |
+| Ethical concerns | Medium |
+| Legal responsibility | Medium |
+| Human oversight | Medium |
+| Supporting evidence | Medium |
+
+---
+
+# Reflection
+
+## What I Learned
+
+A research summary can contain accurate information while still being incomplete. Identifying what has been omitted is just as important as identifying factual errors. Comprehensive research should address the full scope of the question, acknowledge limitations, and consider multiple perspectives.
+
+---
+
+## What I'd Do Differently
+
+Compare the AI-generated summary against systematic reviews or clinical guidelines to identify additional research gaps and ensure that important evidence has not been overlooked.
+
+---
+
+# Skills Demonstrated
+
+- Research Gap Analysis
+- Critical Thinking
+- Information Completeness Assessment
+- Evidence Evaluation
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ⚠️ Requires Significant Expansion
+
+**Reason**
+
+The response answers part of the research question but fails to address several critical topics, particularly the risks and ethical considerations of AI in healthcare. Expanding the discussion to include these areas would provide a more balanced, informative, and trustworthy research summary.
