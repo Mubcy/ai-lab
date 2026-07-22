@@ -1,0 +1,196 @@
+# Project 007 — Evidence Strength Assessment
+
+## Date
+
+2026-07-22
+
+## Category
+
+Research
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Evidence Assessment, Critical Evaluation, Research Quality
+
+---
+
+# Objective
+
+Evaluate the strength of evidence supporting different claims. Assess whether each claim is backed by robust research, limited evidence, expert opinion, or anecdotal information, then determine how much confidence should be placed in the conclusions.
+
+---
+
+# Research Topic
+
+> Do standing desks improve employee health and productivity?
+
+---
+
+# Evidence Summary
+
+### Claim A
+
+A company surveyed 25 employees after introducing standing desks. Most participants reported feeling more energetic and productive after two weeks.
+
+---
+
+### Claim B
+
+A systematic review of 38 peer-reviewed studies found that standing desks reduced sedentary time during work hours. However, evidence for improvements in productivity and long-term health outcomes was inconsistent.
+
+---
+
+### Claim C
+
+A popular productivity influencer claims standing desks increase productivity by 50%, based on personal experience using one for several years.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Evidence Type | What type of evidence supports the claim? |
+| Sample Quality | Is the sample size appropriate? |
+| Reliability | Can the findings be trusted? |
+| Generalizability | Can the results apply broadly? |
+| Limitations | Are weaknesses acknowledged? |
+| Overall Evidence Strength | Overall confidence in the evidence |
+
+---
+
+# Evidence Evaluation
+
+## Claim A
+
+| Category | Score (/5) |
+|----------|------------|
+| Evidence Type | 2 |
+| Sample Quality | 2 |
+| Reliability | 3 |
+| Generalizability | 2 |
+| Limitations | 2 |
+| Overall | 2.2 |
+
+### Strengths
+
+- Based on real employee experiences.
+- Directly related to the research question.
+
+### Weaknesses
+
+- Small sample size.
+- Self-reported outcomes.
+- Short evaluation period.
+- No control group.
+- Findings may not apply to other workplaces.
+
+---
+
+## Claim B
+
+| Category | Score (/5) |
+|----------|------------|
+| Evidence Type | 5 |
+| Sample Quality | 5 |
+| Reliability | 5 |
+| Generalizability | 5 |
+| Limitations | 5 |
+| Overall | 5.0 |
+
+### Strengths
+
+- Based on a systematic review.
+- Includes multiple peer-reviewed studies.
+- Discusses both positive findings and limitations.
+- Avoids overstating conclusions.
+
+### Weaknesses
+
+- Some underlying studies may differ in quality.
+- Evidence for productivity remains mixed.
+
+---
+
+## Claim C
+
+| Category | Score (/5) |
+|----------|------------|
+| Evidence Type | 1 |
+| Sample Quality | 1 |
+| Reliability | 1 |
+| Generalizability | 1 |
+| Limitations | 1 |
+| Overall | 1.0 |
+
+### Strengths
+
+- Provides a real-world personal experience.
+
+### Weaknesses
+
+- Purely anecdotal.
+- No supporting research.
+- Makes a quantitative claim without evidence.
+- Cannot be generalized.
+
+---
+
+# Evidence Hierarchy
+
+| Evidence Type | Strength |
+|---------------|----------|
+| Systematic Review / Meta-analysis | ⭐⭐⭐⭐⭐ |
+| Randomized Controlled Trial | ⭐⭐⭐⭐☆ |
+| Observational Study | ⭐⭐⭐☆☆ |
+| Survey / Case Study | ⭐⭐☆☆☆ |
+| Expert Opinion | ⭐⭐☆☆☆ |
+| Anecdotal Experience | ⭐☆☆☆☆ |
+
+---
+
+# Final Assessment
+
+Claim B is supported by the strongest evidence because it synthesizes findings from numerous peer-reviewed studies while acknowledging uncertainty and limitations. This makes its conclusions more reliable than those based on small surveys or personal experiences.
+
+Claim A provides useful preliminary insights but lacks methodological rigor. Claim C relies entirely on anecdotal evidence and should not be used to support broad conclusions.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Not all evidence carries the same weight. The quality of a conclusion depends not only on whether evidence exists, but also on how that evidence was collected, analyzed, and validated.
+
+---
+
+## What I'd Do Differently
+
+Review the methodology of the studies included in the systematic review to assess their individual quality and determine whether the overall conclusions are well supported.
+
+---
+
+# Skills Demonstrated
+
+- Evidence Strength Assessment
+- Research Evaluation
+- Critical Thinking
+- Scientific Reasoning
+- Information Literacy
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Strong Evidence Supports Claim B
+
+**Reason**
+
+Among the three claims, Claim B is supported by the highest-quality evidence because it is based on a systematic review of multiple peer-reviewed studies and presents balanced conclusions with acknowledged limitations. Claims A and C provide weaker forms of evidence and should be interpreted with greater caution.
