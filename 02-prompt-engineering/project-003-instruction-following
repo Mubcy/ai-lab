@@ -1,0 +1,211 @@
+# Project 003 — Evaluating Instruction Following
+
+## Date
+
+2026-07-22
+
+## Category
+
+Prompt Engineering
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Instruction Following, Prompt Compliance, Response Evaluation
+
+---
+
+# Objective
+
+Evaluate whether an AI-generated response correctly follows a user's prompt. Identify missed instructions, unnecessary information, formatting violations, and partial compliance before producing an improved response.
+
+---
+
+# Prompt
+
+Write exactly **five** bullet points explaining the benefits of regular exercise.
+
+Requirements:
+
+- Each bullet must contain **no more than 12 words**.
+- Mention both **physical** and **mental** health benefits.
+- Do **not** mention weight loss.
+- End with the sentence:
+  **Exercise is an investment in long-term health.**
+
+---
+
+# AI Response
+
+- Exercise strengthens muscles and improves cardiovascular fitness for everyday activities.
+- It boosts mood and reduces stress through the release of endorphins.
+- Regular workouts help people lose weight and maintain a healthy body.
+- Exercise improves sleep quality and increases daily energy levels.
+- Staying active lowers the risk of chronic diseases.
+- Exercise is an investment in long-term health.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Instruction Following | Were all instructions followed correctly? |
+| Constraint Compliance | Were length, format, and content restrictions respected? |
+| Accuracy | Are the statements generally correct? |
+| Clarity | Is the response easy to understand? |
+| Completeness | Were all requested requirements satisfied? |
+| Overall Quality | Overall usefulness and prompt compliance |
+
+---
+
+# Instruction Compliance Checklist
+
+| Requirement | Status |
+|-------------|--------|
+| Exactly five bullet points | ❌ Failed |
+| Maximum 12 words per bullet | ❌ Failed |
+| Mention physical benefits | ✅ Passed |
+| Mention mental benefits | ✅ Passed |
+| Do not mention weight loss | ❌ Failed |
+| End with required sentence | ✅ Passed |
+
+---
+
+# Issue Identification
+
+## Issue 1
+
+### Observation
+
+The response contains **six** bullet points instead of five.
+
+### Problem
+
+The prompt explicitly requested exactly five bullet points. Exceeding the requested number violates a measurable instruction.
+
+**Severity:** High
+
+**Confidence:** High
+
+---
+
+## Issue 2
+
+### Observation
+
+Several bullet points exceed the 12-word limit.
+
+### Problem
+
+The response ignores the specified length constraint, making it non-compliant with the prompt.
+
+**Severity:** Medium
+
+**Confidence:** High
+
+---
+
+## Issue 3
+
+### Observation
+
+The response mentions weight loss.
+
+### Problem
+
+The prompt explicitly instructed the model **not** to mention weight loss.
+
+**Severity:** High
+
+**Confidence:** High
+
+---
+
+## Issue 4
+
+### Observation
+
+The final sentence is formatted as a bullet point.
+
+### Problem
+
+The prompt requested that the response end with the sentence, not an additional bullet.
+
+**Severity:** Medium
+
+**Confidence:** Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Instruction Following | 2 |
+| Constraint Compliance | 2 |
+| Accuracy | 5 |
+| Clarity | 5 |
+| Completeness | 3 |
+| Overall Quality | 3 |
+
+---
+
+# Improved Response
+
+- Strengthens muscles and improves heart health.
+- Reduces stress and supports emotional wellbeing.
+- Improves sleep and boosts daily energy.
+- Lowers chronic disease risk through activity.
+- Enhances flexibility and overall mobility.
+
+Exercise is an investment in long-term health.
+
+---
+
+# Why This Version Is Better
+
+- Follows the exact number of bullet points.
+- Respects the word limit.
+- Includes both physical and mental health benefits.
+- Avoids mentioning weight loss.
+- Ends with the required sentence outside the bullet list.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Instruction-following evaluation requires checking every constraint individually rather than judging the response based only on overall quality. A response may be factually correct but still fail because it ignores explicit user instructions.
+
+---
+
+## What I'd Do Differently
+
+Create a checklist before evaluating future responses to ensure no instruction is overlooked, especially measurable constraints like word count, formatting, and prohibited content.
+
+---
+
+# Skills Demonstrated
+
+- Prompt Engineering
+- Instruction Following Evaluation
+- Constraint Verification
+- Response Analysis
+- Critical Thinking
+- Technical Writing
+- AI Evaluation
+
+---
+
+# Final Verdict
+
+**Decision:** ⚠️ Requires Major Revisions
+
+**Reason**
+
+Although the response is factually accurate and easy to understand, it violates multiple explicit prompt constraints, including the required number of bullet points, maximum word count, prohibited content, and formatting requirements. The revised version fully complies with all instructions while maintaining clarity and usefulness.
