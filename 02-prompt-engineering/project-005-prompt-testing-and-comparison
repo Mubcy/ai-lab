@@ -1,0 +1,197 @@
+# Project 005 — Prompt A/B Testing and Comparison
+
+## Date
+
+2026-07-22
+
+## Category
+
+Prompt Engineering
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Prompt Comparison, Prompt Evaluation, A/B Testing
+
+---
+
+# Objective
+
+Compare two prompts designed for the same task, evaluate their strengths and weaknesses, and determine which prompt is more likely to produce consistent, high-quality AI responses.
+
+---
+
+# Task
+
+Generate a product description for a wireless Bluetooth speaker.
+
+---
+
+# Prompt A
+
+> Write a product description for a Bluetooth speaker.
+
+---
+
+# Prompt B
+
+> Write a persuasive product description for a wireless Bluetooth speaker.
+
+Requirements:
+
+- Target young professionals.
+- Keep the description between 120–150 words.
+- Highlight battery life, sound quality, and portability.
+- Use a confident and engaging tone.
+- Include one short call to action at the end.
+- Avoid exaggerated or unsupported claims.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Is the prompt easy to understand? |
+| Specificity | Does it provide enough guidance? |
+| Constraint Design | Are measurable constraints included? |
+| Consistency | Is it likely to produce reliable outputs? |
+| Ease of Evaluation | Can the response be objectively evaluated? |
+| Overall Quality | Overall effectiveness of the prompt |
+
+---
+
+# Prompt Evaluation
+
+## Prompt A
+
+### Strengths
+
+- Very short and simple.
+- Easy for users to write.
+- Leaves room for creativity.
+
+### Weaknesses
+
+- No audience specified.
+- No length requirement.
+- No tone guidance.
+- No required product features.
+- No structure or formatting expectations.
+- High chance of inconsistent outputs.
+
+---
+
+## Prompt B
+
+### Strengths
+
+- Clearly defines the audience.
+- Includes measurable constraints.
+- Specifies key product features.
+- Controls response length.
+- Defines tone.
+- Includes a call to action.
+- Prevents exaggerated marketing claims.
+
+### Weaknesses
+
+- Slightly longer.
+- Less creative freedom for the model.
+
+---
+
+# Comparison
+
+| Category | Prompt A | Prompt B |
+|----------|----------|----------|
+| Audience Defined | ❌ | ✅ |
+| Length Specified | ❌ | ✅ |
+| Tone Defined | ❌ | ✅ |
+| Required Content | ❌ | ✅ |
+| Call to Action | ❌ | ✅ |
+| Easy to Evaluate | ⭐⭐☆☆☆ | ⭐⭐⭐⭐⭐ |
+| Consistency | ⭐⭐☆☆☆ | ⭐⭐⭐⭐⭐ |
+
+---
+
+# Expected Output Quality
+
+## Prompt A
+
+Likely output characteristics:
+
+- Highly variable
+- Different tone each run
+- May omit important product details
+- Difficult to compare across models
+
+---
+
+## Prompt B
+
+Likely output characteristics:
+
+- More focused
+- More consistent
+- Easier to evaluate
+- Better aligned with marketing objectives
+- More suitable for production use
+
+---
+
+# Recommendation
+
+Prompt B is the stronger prompt because it reduces ambiguity while preserving the original objective. The added constraints improve consistency without making the prompt unnecessarily complex.
+
+Although Prompt A encourages creative responses, its lack of guidance makes the output less predictable and harder to evaluate.
+
+---
+
+# Prompt Engineering Principles Demonstrated
+
+- Audience definition
+- Constraint writing
+- Output consistency
+- Objective alignment
+- Prompt comparison
+- Evaluation-oriented prompt design
+
+---
+
+# Reflection
+
+## What I Learned
+
+Comparing prompts highlights how small changes in wording and constraints can significantly improve AI performance. A/B testing is an effective way to measure prompt quality and identify which instructions contribute most to reliable outputs.
+
+---
+
+## What I'd Differently
+
+Test both prompts across multiple AI models and compare the generated responses using a standardized evaluation rubric to validate whether the expected improvements are consistent.
+
+---
+
+# Skills Demonstrated
+
+- Prompt Engineering
+- Prompt Evaluation
+- A/B Testing
+- Instruction Design
+- Critical Thinking
+- AI Interaction Design
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Prompt B Recommended
+
+**Reason**
+
+Prompt B provides clearer instructions, measurable constraints, and a defined objective, making it more likely to produce high-quality, consistent, and evaluation-friendly AI responses.
