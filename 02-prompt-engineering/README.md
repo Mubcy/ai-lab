@@ -44,15 +44,15 @@ The goals of this section are to:
 | Project | Topic | Status |
 |---------|-------|--------|
 | Project 001 | Prompt Refinement | ✅ Completed |
-| Project 002 | Constraint Writing | ⏳ In Progress |
-| Project 003 | Instruction Following | Planned |
-| Project 004 | Prompt Debugging | Planned |
-| Project 005 | Prompt Comparison | Planned |
-| Project 006 | Role Prompting | Planned |
-| Project 007 | Structured Outputs | Planned |
-| Project 008 | Multi-step Prompting | Planned |
-| Project 009 | Workflow Design | Planned |
-| Project 010 | Production Prompt Audit | Planned |
+| Project 002 | Constraint Writing | ✅ Completed |
+| Project 003 | Instruction Following | ✅ Completed |
+| Project 004 | Prompt Debugging | ✅ Completed |
+| Project 005 | Prompt Comparison | ✅ Completed |
+| Project 006 | Role Prompting | ✅ Completed |
+| Project 007 | Structured Outputs | ✅ Completed |
+| Project 008 | Multi-step Prompting | ✅ Completed |
+| Project 009 | Workflow Design |✅ Completed |
+| Project 010 | Production Prompt Audit | ✅ Completed |
 
 ---
 
@@ -78,7 +78,7 @@ By completing this section, I aim to demonstrate the ability to:
 ├── project-002-constraint-writing.md
 ├── project-003-instruction-following.md
 ├── project-004-prompt-debugging.md
-├── project-005-prompt-comparison.md
+├── project-005-prompt-testing-and-comparison.md
 ├── project-006-role-prompting.md
 ├── project-007-structured-output.md
 ├── project-008-multi-step-prompting.md
