@@ -1,0 +1,207 @@
+# Project 002 — Writing Effective Constraints for AI Prompts
+
+## Date
+
+2026-07-21
+
+## Category
+
+Prompt Engineering
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Constraint Writing, Prompt Design, Output Control
+
+---
+
+# Objective
+
+Improve a vague prompt by adding clear constraints that guide the AI toward producing a consistent, high-quality response. The goal is to reduce ambiguity and increase reliability by specifying measurable requirements.
+
+---
+
+# Original Prompt
+
+> Explain Artificial Intelligence.
+
+---
+
+# Problems Identified
+
+## Issue 1 — Undefined Audience
+
+The prompt does not specify who the explanation is for.
+
+Possible audiences include:
+
+- Children
+- High school students
+- University students
+- Business executives
+- Software engineers
+
+Different audiences require different explanations.
+
+---
+
+## Issue 2 — No Length Requirement
+
+The response could range from one sentence to several pages.
+
+Without constraints, response length becomes unpredictable.
+
+---
+
+## Issue 3 — No Output Structure
+
+The prompt does not specify whether the answer should be:
+
+- Paragraph
+- Bullet points
+- Table
+- Essay
+
+---
+
+## Issue 4 — No Objective
+
+The model is not told what the explanation should achieve.
+
+Possible goals:
+
+- Teach
+- Summarize
+- Compare
+- Persuade
+- Introduce
+
+---
+
+## Issue 5 — Missing Content Requirements
+
+Important topics such as machine learning, examples, or real-world applications may be omitted.
+
+---
+
+# Improved Prompt
+
+Explain Artificial Intelligence to a high school student.
+
+Requirements:
+
+- Keep the explanation between **250–300 words**.
+- Use simple, beginner-friendly English.
+- Define Artificial Intelligence in the first paragraph.
+- Explain how AI works at a high level.
+- Include **three real-world examples**.
+- Avoid technical jargon.
+- Use bullet points where appropriate.
+- End with a two-sentence summary.
+- Maintain a friendly and educational tone.
+
+---
+
+# Constraint Analysis
+
+| Constraint | Purpose |
+|------------|---------|
+| High school student | Defines the audience |
+| 250–300 words | Controls response length |
+| Simple English | Improves readability |
+| Three examples | Ensures completeness |
+| No technical jargon | Prevents unnecessary complexity |
+| Summary | Improves retention |
+| Friendly tone | Creates consistency |
+| Bullet points | Improves formatting |
+
+---
+
+# Expected Improvements
+
+Compared to the original prompt, the revised version is expected to produce responses that are:
+
+- More focused
+- Easier to evaluate
+- More consistent across different AI models
+- Better suited to the intended audience
+- Less likely to omit important information
+
+---
+
+# Before vs After
+
+## Original Prompt
+
+> Explain Artificial Intelligence.
+
+Expected Output:
+
+- Highly variable
+- Unknown audience
+- Inconsistent length
+- No guarantee of examples or structure
+
+---
+
+## Improved Prompt
+
+Expected Output:
+
+- Audience-specific
+- Consistent length
+- Structured explanation
+- Includes examples
+- Beginner-friendly
+- Easier to compare across models
+
+---
+
+# Best Practices Demonstrated
+
+- Clearly define the audience.
+- Specify the desired output length.
+- Include measurable requirements.
+- Define the writing style and tone.
+- Require essential content.
+- Specify formatting expectations.
+- Keep instructions concise and unambiguous.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Adding clear constraints significantly improves the quality and consistency of AI-generated responses. Instead of relying on the model to infer user intent, well-designed prompts explicitly communicate expectations regarding audience, structure, tone, content, and formatting.
+
+---
+
+## What I'd Do Differently
+
+Experiment with multiple versions of the prompt to measure how individual constraints affect the final response and determine which constraints provide the greatest improvement in output quality.
+
+---
+
+# Skills Demonstrated
+
+- Prompt Engineering
+- Constraint Writing
+- Prompt Optimization
+- Instruction Design
+- AI Interaction Design
+- Technical Writing
+- Critical Thinking
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Improved
+
+**Reason**
+
+The revised prompt transforms a vague request into a structured instruction with clear objectives, measurable constraints, and defined expectations. These improvements reduce ambiguity and increase the likelihood of generating reliable, high-quality responses across different AI models.
