@@ -6,14 +6,15 @@ This repository contains hands-on projects inspired by real-world assessments us
 
 ## Skills Demonstrated
 
-- AI Response Evaluation
+- AI Evaluation
 - Prompt Engineering
-- Hallucination Detection
-- Fact Checking
-- Safety Evaluation
 - Research
+- Fact-Checking
+- Hallucination Detection
+- Safety Evaluation
 - Technical Writing
+- QA Testing
 - Code Evaluation
-- Quality Assurance
+- Case Studies
 
 Each project documents the evaluation process, reasoning, scoring methodology, and lessons learned.
