@@ -1,0 +1,152 @@
+# Project 002 — Detecting Unsupported Claims
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Unsupported Claims, Evidence Assessment, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response to identify unsupported claims. Determine which statements lack sufficient evidence, explain why they should not be presented as facts, assess their severity, and rewrite the response using appropriately qualified language.
+
+---
+
+# Prompt
+
+> Does listening to classical music make people smarter?
+
+---
+
+# AI Response
+
+> Yes. Listening to classical music permanently increases IQ by an average of 12 points. Studies have proven that people who listen to Mozart every day become significantly more intelligent than those who do not. Schools that play classical music during lessons consistently achieve better academic results because of this effect.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were unsupported claims identified? |
+| Evidence Assessment | Was the lack of evidence explained? |
+| Severity Assessment | Was the potential impact evaluated? |
+| Clarity | Is the evaluation well organized? |
+| Overall Quality | Overall effectiveness of the review. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "Listening to classical music permanently increases IQ by an average of 12 points."
+
+### Verdict
+
+❌ Unsupported Claim
+
+### Reasoning
+
+There is no strong scientific evidence that listening to classical music permanently increases IQ by a fixed amount. The statement presents a precise numerical effect without evidence.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 2
+
+> "Studies have proven that people who listen to Mozart every day become significantly more intelligent."
+
+### Verdict
+
+❌ Unsupported Claim
+
+### Reasoning
+
+Research often associated with the "Mozart Effect" found temporary improvements in certain cognitive tasks, not permanent increases in intelligence. The response exaggerates the evidence.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 3
+
+> "Schools that play classical music consistently achieve better academic results."
+
+### Verdict
+
+⚠️ Unsupported Generalization
+
+### Reasoning
+
+Academic performance depends on many factors including teaching quality, socioeconomic conditions, curriculum, and student support. No evidence supports this broad causal claim.
+
+**Severity:** 🟠 Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Evidence Assessment | 5 |
+| Severity Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Some research has explored whether listening to classical music can influence cognitive performance. The well-known "Mozart Effect" suggested that listening to certain pieces of music might temporarily improve performance on some spatial reasoning tasks. However, later studies found that these effects are generally small, short-lived, and do not demonstrate permanent increases in intelligence or IQ.
+
+Listening to classical music may improve relaxation, mood, or concentration for some individuals, but current scientific evidence does not support the claim that it permanently makes people smarter.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Not every hallucination is a completely invented fact. AI models often exaggerate research findings or present weak evidence as scientific certainty. Detecting unsupported claims requires examining whether the available evidence actually justifies the confidence of the statement.
+
+---
+
+## What I'd Do Differently
+
+In future evaluations, I would distinguish between evidence showing correlation, temporary effects, and proven causal relationships. I would also avoid treating a single study as definitive evidence.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- Evidence Assessment
+- Research Interpretation
+- Critical Thinking
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response repeatedly presents unsupported scientific claims as established facts. It exaggerates existing research, invents precise outcomes, and fails to communicate uncertainty or limitations in the evidence.
