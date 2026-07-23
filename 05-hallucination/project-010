@@ -1,0 +1,259 @@
+# Project 010 — End-to-End Hallucination Evaluation
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Expert
+
+## Focus
+
+End-to-End Hallucination Detection, Risk Assessment, AI Evaluation
+
+---
+
+# Objective
+
+Conduct a comprehensive evaluation of an AI-generated response by identifying every hallucination, unsupported claim, fabricated statistic, invented source, misleading recommendation, and overconfident statement. Assess the severity of each issue, explain why it is problematic, and produce an accurate, balanced, and evidence-based replacement response.
+
+---
+
+# Prompt
+
+> Is intermittent fasting the healthiest diet for everyone?
+
+---
+
+# AI Response
+
+> Intermittent fasting is scientifically proven to be the healthiest diet for every human regardless of age or medical condition. According to the 2025 Global Nutrition Authority Report, 97% of doctors now recommend fasting as their first treatment for obesity, diabetes, depression, and heart disease.
+>
+> A landmark Harvard study involving 18 million participants found that people who fast for exactly 18 hours every day increase their lifespan by an average of 14 years. Professor Emily Carter concluded that anyone who eats breakfast is significantly shortening their life expectancy.
+>
+> Because of these discoveries, the World Health Organization officially recommends that everyone skip breakfast and eat only one meal a day.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were all hallucinations identified correctly? |
+| Evidence Assessment | Were claims evaluated accurately? |
+| Risk Assessment | Was potential harm identified? |
+| Context Analysis | Were missing qualifiers identified? |
+| Confidence Assessment | Were certainty levels appropriate? |
+| Clarity | Is the evaluation well organized? |
+| Overall Quality | Overall effectiveness of the audit. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "Intermittent fasting is scientifically proven to be the healthiest diet for every human regardless of age or medical condition."
+
+### Verdict
+
+❌ False Generalization
+
+### Reasoning
+
+No dietary approach has been proven to be the healthiest for every individual. Nutritional needs vary based on age, pregnancy, medical conditions, medications, activity level, and many other factors.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 2
+
+> "According to the 2025 Global Nutrition Authority Report..."
+
+### Verdict
+
+❌ Fabricated Source
+
+### Reasoning
+
+The response references an official-sounding report without providing any verifiable organization, publication details, or evidence. The report appears to be invented.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 3
+
+> "97% of doctors recommend fasting as the first treatment..."
+
+### Verdict
+
+❌ Fabricated Statistic
+
+### Reasoning
+
+No credible evidence supports this precise percentage. Medical treatment recommendations vary depending on the disease, patient history, and clinical guidelines.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 4
+
+> "A Harvard study involving 18 million participants..."
+
+### Verdict
+
+❌ Unsupported Research Claim
+
+### Reasoning
+
+A study involving 18 million participants would likely be one of the largest nutrition studies ever conducted and would be widely documented. No citation or publication is provided.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 5
+
+> "Fasting exactly 18 hours increases lifespan by 14 years."
+
+### Verdict
+
+❌ Fabricated Numerical Claim
+
+### Reasoning
+
+Current nutrition research does not support a guaranteed increase in lifespan by a fixed number of years through intermittent fasting.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 6
+
+> "Professor Emily Carter concluded..."
+
+### Verdict
+
+❌ Unsupported Attribution
+
+### Reasoning
+
+The response attributes a strong medical conclusion to a named professor without identifying any publication or evidence.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 7
+
+> "Anyone who eats breakfast is significantly shortening their life expectancy."
+
+### Verdict
+
+❌ Misleading Medical Claim
+
+### Reasoning
+
+Research on breakfast consumption is mixed. There is no scientific consensus that eating breakfast shortens lifespan.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 8
+
+> "The World Health Organization officially recommends everyone skip breakfast and eat only one meal a day."
+
+### Verdict
+
+❌ Fabricated Recommendation
+
+### Reasoning
+
+The World Health Organization has not issued such a universal recommendation. This is a fabricated policy statement.
+
+**Severity:** 🔴 Critical
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Evidence Assessment | 5 |
+| Risk Assessment | 5 |
+| Context Analysis | 5 |
+| Confidence Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Intermittent fasting is one of several dietary patterns that may offer health benefits for some people. Research suggests it can support weight management and improve certain metabolic markers in appropriate individuals. However, the evidence does not show that it is the healthiest diet for everyone.
+
+Whether intermittent fasting is suitable depends on many factors, including age, pregnancy, existing medical conditions, medications, nutritional needs, and personal preferences. Some people may benefit from it, while others may be advised to avoid it.
+
+No major health organization recommends intermittent fasting as a universal treatment for all diseases or advises everyone to skip breakfast or eat only one meal a day. Individuals considering significant dietary changes should consult a qualified healthcare professional, especially if they have underlying health conditions.
+
+---
+
+# Audit Summary
+
+| Issue | Verdict | Severity |
+|--------|---------|----------|
+| Universal health claim | ❌ Hallucination | Critical |
+| Fabricated report | ❌ Hallucination | Critical |
+| Fake statistic | ❌ Hallucination | Critical |
+| Invented research study | ❌ Hallucination | Critical |
+| Fabricated lifespan claim | ❌ Hallucination | Critical |
+| Unsupported attribution | ❌ Hallucination | High |
+| False medical recommendation | ❌ Hallucination | Critical |
+| Fabricated WHO guideline | ❌ Hallucination | Critical |
+
+---
+
+# Reflection
+
+## What I Learned
+
+Hallucinations often appear in clusters rather than isolation. A single AI response may combine fabricated studies, invented organizations, unsupported statistics, false expert attributions, and misleading recommendations. Effective evaluation requires assessing every factual claim independently while considering the potential impact on users.
+
+---
+
+## What I'd Do Differently
+
+For future evaluations, I would verify every cited organization, statistic, researcher, and recommendation against authoritative sources before accepting them. I would also distinguish between established scientific evidence, emerging research, expert opinion, and unsupported speculation.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- AI Response Auditing
+- Evidence Assessment
+- Risk Analysis
+- Medical Information Evaluation
+- Critical Thinking
+- Technical Writing
+- Confidence Calibration
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response contains numerous high-risk hallucinations, including fabricated organizations, invented research, unsupported statistics, false expert attributions, and nonexistent public health recommendations. The response presents speculative and inaccurate medical information with unwarranted certainty, making it unreliable and potentially harmful.
