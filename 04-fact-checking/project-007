@@ -1,0 +1,238 @@
+# Project 006 — Multi-Claim Fact Checking
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Multi-Claim Verification, Evidence Assessment, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response containing multiple factual claims. Verify each claim independently, identify inaccuracies or misleading statements, explain your reasoning, and produce an improved response that is accurate, balanced, and evidence-based.
+
+---
+
+# Prompt
+
+> Tell me about electric vehicles.
+
+---
+
+# AI Response
+
+Electric vehicles (EVs) produce zero emissions, making them completely environmentally friendly. They are always cheaper to own than gasoline cars because electricity costs less than fuel and maintenance is almost nonexistent.
+
+Modern EV batteries typically last forever without significant degradation, and charging an EV takes only five minutes at any charging station. Additionally, all countries now have enough charging infrastructure to support nationwide EV adoption.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Claim Verification | Are individual claims evaluated correctly? |
+| Evidence Quality | Are explanations supported by evidence? |
+| Context | Are important qualifiers included? |
+| Clarity | Is the evaluation easy to understand? |
+| Overall Quality | Overall effectiveness of the review. |
+
+---
+
+# Claim Evaluation
+
+---
+
+## Claim 1
+
+### Statement
+
+> Electric vehicles produce zero emissions.
+
+### Verdict
+
+⚠️ Partially Accurate
+
+### Reasoning
+
+Electric vehicles produce **zero tailpipe emissions**, but they are not entirely emission-free. Manufacturing, battery production, electricity generation, and recycling all contribute to greenhouse gas emissions.
+
+**Severity:** Medium
+
+---
+
+## Claim 2
+
+### Statement
+
+> EVs are completely environmentally friendly.
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+No vehicle is completely environmentally friendly. Environmental impact depends on battery manufacturing, electricity sources, raw material extraction, transportation, and disposal.
+
+**Severity:** High
+
+---
+
+## Claim 3
+
+### Statement
+
+> EVs are always cheaper to own than gasoline cars.
+
+### Verdict
+
+⚠️ Misleading
+
+### Reasoning
+
+Ownership costs depend on purchase price, electricity prices, fuel prices, maintenance, incentives, insurance, driving habits, and location. Many EVs have lower running costs, but this is not universally true.
+
+**Severity:** Medium
+
+---
+
+## Claim 4
+
+### Statement
+
+> Maintenance is almost nonexistent.
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+EVs generally require less maintenance than internal combustion vehicles, but they still need tire replacements, brake servicing, suspension maintenance, cabin filters, coolant checks (for some models), and other routine servicing.
+
+**Severity:** Medium
+
+---
+
+## Claim 5
+
+### Statement
+
+> EV batteries last forever without significant degradation.
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+All rechargeable batteries degrade over time. Most modern EV batteries retain much of their capacity for many years, but gradual degradation is expected.
+
+**Severity:** High
+
+---
+
+## Claim 6
+
+### Statement
+
+> Charging takes only five minutes at any charging station.
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+Charging time depends on the charger type, battery size, vehicle compatibility, battery temperature, and state of charge. Many chargers require significantly longer than five minutes.
+
+**Severity:** High
+
+---
+
+## Claim 7
+
+### Statement
+
+> Every country has sufficient charging infrastructure.
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+Charging infrastructure varies greatly between countries and regions. Some countries have extensive charging networks, while others have limited coverage.
+
+**Severity:** High
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Claim Verification | 5 |
+| Evidence Quality | 5 |
+| Context | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Improved Response
+
+Electric vehicles (EVs) produce **zero tailpipe emissions**, which can help reduce local air pollution. However, their overall environmental impact also depends on factors such as battery manufacturing, electricity generation, and recycling.
+
+Many EV owners experience lower operating and maintenance costs compared with gasoline vehicles, but total ownership costs vary depending on purchase price, incentives, electricity costs, insurance, and driving habits.
+
+Modern EV batteries are designed to last many years, although they gradually lose capacity over time. Charging times also vary depending on the charging station and vehicle, ranging from roughly 20 minutes at some high-speed chargers to several hours using slower chargers.
+
+Charging infrastructure continues to expand worldwide, but availability differs significantly across countries and regions.
+
+---
+
+# Reflection
+
+## What I Learned
+
+AI responses often contain a mixture of accurate facts, exaggerated claims, and unsupported generalizations. Evaluating each statement independently produces a more reliable assessment than accepting or rejecting the entire response.
+
+---
+
+## What I'd Do Differently
+
+For production-level evaluations, I would verify each claim against recent manufacturer data, government transportation reports, and peer-reviewed environmental research to ensure the information reflects current evidence.
+
+---
+
+# Skills Demonstrated
+
+- Multi-Claim Fact Checking
+- Evidence Assessment
+- Critical Thinking
+- Context Analysis
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ⚠️ Accept with Major Revisions
+
+**Reason**
+
+The response contains several accurate ideas but overstates the benefits of electric vehicles through unsupported absolutes such as "always," "completely," and "forever." A more balanced response should acknowledge variability in environmental impact, ownership costs, battery lifespan, charging times, and infrastructure availability.
