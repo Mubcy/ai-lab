@@ -1,0 +1,187 @@
+# Project 004 — Detecting Fabricated Sources & Citations
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Fabricated Sources, Citation Verification, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response for fabricated or misleading citations. Identify invented journals, authors, research papers, organizations, or references. Explain why they are unreliable, assess their severity, and produce a corrected response supported by verifiable evidence.
+
+---
+
+# Prompt
+
+> Is drinking coffee linked to a longer lifespan?
+
+---
+
+# AI Response
+
+> According to a 2024 study published in the *International Journal of Global Nutrition Science*, researchers at the European Institute of Longevity followed 12 million adults over 25 years and found that drinking three cups of coffee daily increases lifespan by exactly 6.8 years. Professor Daniel Robertson, the lead researcher, concluded that coffee should be considered an essential nutrient.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were fabricated citations identified? |
+| Source Verification | Were sources evaluated correctly? |
+| Evidence Assessment | Was the lack of evidence explained? |
+| Severity Assessment | Was the impact evaluated appropriately? |
+| Clarity | Is the evaluation easy to understand? |
+| Overall Quality | Overall effectiveness of the review. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "According to a 2024 study published in the International Journal of Global Nutrition Science..."
+
+### Verdict
+
+❌ Fabricated Citation
+
+### Reasoning
+
+The response references a journal without providing verifiable publication details such as volume, issue, DOI, or publisher. The journal itself may not exist.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 2
+
+> "Researchers at the European Institute of Longevity..."
+
+### Verdict
+
+❌ Unsupported Organization
+
+### Reasoning
+
+The response names a research institution without evidence that such an organization conducted the claimed study.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 3
+
+> "Researchers followed 12 million adults over 25 years."
+
+### Verdict
+
+❌ Unsupported Research Claim
+
+### Reasoning
+
+A study of this scale would likely be widely recognized and documented. The response provides no verifiable source for such an extraordinary claim.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 4
+
+> "Three cups of coffee increase lifespan by exactly 6.8 years."
+
+### Verdict
+
+❌ Fabricated Numerical Claim
+
+### Reasoning
+
+Health outcomes are rarely expressed with this level of precision. Current research generally reports associations with risk reduction rather than guaranteeing a fixed increase in lifespan.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 5
+
+> "Professor Daniel Robertson concluded coffee should be considered an essential nutrient."
+
+### Verdict
+
+❌ Hallucinated Attribution
+
+### Reasoning
+
+The response attributes a quote and recommendation to a named researcher without any verifiable evidence.
+
+**Severity:** 🔴 Critical
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Source Verification | 5 |
+| Evidence Assessment | 5 |
+| Severity Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Some observational studies have found an association between moderate coffee consumption and a lower risk of certain health conditions and mortality. However, these studies do not prove that coffee directly increases lifespan, and the results may be influenced by lifestyle and other factors.
+
+Current evidence suggests that moderate coffee consumption can be part of a healthy diet for many adults, but there is no credible evidence that drinking a specific amount of coffee guarantees a fixed increase in lifespan. Health recommendations should be based on established clinical guidelines and high-quality research rather than unsupported claims.
+
+---
+
+# Reflection
+
+## What I Learned
+
+AI models sometimes fabricate sources, journals, institutions, researchers, or quotations to make responses appear more authoritative. A citation should never be trusted simply because it looks academic; it must be independently verifiable.
+
+---
+
+## What I'd Do Differently
+
+When reviewing AI-generated citations, I would verify that the journal, authors, institution, publication date, and DOI actually exist. I would also be cautious of unusually precise findings presented without accessible evidence.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- Citation Verification
+- Evidence Assessment
+- Critical Thinking
+- AI Evaluation
+- Research Analysis
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response builds credibility using multiple unverifiable references, including a likely fabricated journal, research institution, researcher, and study. These invented citations make the response unreliable and demonstrate a serious hallucination that could mislead users.
