@@ -1,0 +1,151 @@
+# Project 001 — Identifying Fabricated Facts
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Fabricated Facts, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response to determine whether it contains fabricated facts. Identify unsupported statements, explain why they are considered hallucinations, assess their severity, and produce an accurate replacement response.
+
+---
+
+# Prompt
+
+> Who invented email?
+
+---
+
+# AI Response
+
+> Email was invented in 1982 by Thomas Henderson while working for IBM. His invention became the global standard for electronic communication and earned him the Nobel Prize in Computer Science in 1988.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were fabricated facts identified correctly? |
+| Evidence Assessment | Is the reasoning sound? |
+| Severity Assessment | Is the impact evaluated appropriately? |
+| Clarity | Is the explanation easy to understand? |
+| Overall Quality | Overall effectiveness of the evaluation. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "Email was invented in 1982 by Thomas Henderson."
+
+### Verdict
+
+❌ Hallucinated
+
+### Reasoning
+
+There is no widely recognized historical evidence that a person named Thomas Henderson invented email in 1982.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 2
+
+> "He was working for IBM."
+
+### Verdict
+
+❌ Unsupported
+
+### Reasoning
+
+The response invents an employer without evidence.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 3
+
+> "He won the Nobel Prize in Computer Science."
+
+### Verdict
+
+❌ Hallucinated
+
+### Reasoning
+
+There is no Nobel Prize category for Computer Science.
+
+**Severity:** 🔴 Critical
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Evidence Assessment | 5 |
+| Severity Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Modern email evolved through contributions from multiple researchers and computer networking projects. One of the most widely recognized milestones was Ray Tomlinson's implementation of networked email in 1971 on ARPANET, including the use of the "@" symbol to separate the user name from the host computer.
+
+Rather than having a single inventor, email developed over time through contributions from many individuals and organizations.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Hallucinations are not limited to small factual mistakes. AI models may confidently invent people, dates, awards, organizations, or historical events that never existed.
+
+---
+
+## What I'd Do Differently
+
+When evaluating historical claims, I would verify names, dates, organizations, and awards independently instead of assuming that detailed responses are accurate.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- Historical Fact Verification
+- AI Evaluation
+- Critical Thinking
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response fabricates multiple historical facts, invents an individual, references a nonexistent Nobel Prize category, and presents unsupported information with complete confidence.
