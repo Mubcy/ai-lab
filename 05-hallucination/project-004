@@ -1,0 +1,188 @@
+# Project 003 — Detecting Fabricated Statistics
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Fabricated Statistics, Numerical Hallucinations, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response for fabricated or unsupported statistical claims. Identify invented percentages, averages, rankings, and survey results, explain why they are unreliable, assess their severity, and produce an evidence-based correction.
+
+---
+
+# Prompt
+
+> How effective is remote work?
+
+---
+
+# AI Response
+
+> Studies show that remote employees are exactly 47% more productive than office workers. In addition, 93% of remote employees report being happier, while companies reduce operating costs by exactly 58% after switching to remote work. A recent global survey of 5 million employees confirmed these findings across every industry.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were fabricated statistics identified? |
+| Evidence Assessment | Was the lack of supporting evidence explained? |
+| Numerical Reasoning | Were numerical claims analyzed correctly? |
+| Severity Assessment | Was the impact evaluated appropriately? |
+| Clarity | Is the evaluation easy to understand? |
+| Overall Quality | Overall effectiveness of the review. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "Remote employees are exactly 47% more productive."
+
+### Verdict
+
+❌ Fabricated Statistic
+
+### Reasoning
+
+The response presents an exact percentage without identifying a study or providing evidence. Productivity varies by role, organization, industry, and how productivity is measured.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 2
+
+> "93% of remote employees report being happier."
+
+### Verdict
+
+❌ Unsupported Statistic
+
+### Reasoning
+
+Employee satisfaction differs across studies and populations. Presenting a precise percentage without citing a reliable survey makes the claim unreliable.
+
+**Severity:** 🟠 Medium
+
+---
+
+## Statement 3
+
+> "Companies reduce operating costs by exactly 58%."
+
+### Verdict
+
+❌ Fabricated Statistic
+
+### Reasoning
+
+Cost savings depend on office size, lease expenses, equipment, travel, utilities, and many other factors. No universal percentage applies to all companies.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 4
+
+> "A global survey of 5 million employees confirmed these findings."
+
+### Verdict
+
+❌ Hallucinated Evidence
+
+### Reasoning
+
+The response references a massive survey without naming the organization, publication, methodology, or source. The survey may not exist.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 5
+
+> "The findings apply across every industry."
+
+### Verdict
+
+❌ Unsupported Generalization
+
+### Reasoning
+
+Remote work affects industries differently. Occupations requiring physical presence cannot be evaluated in the same way as knowledge-based roles.
+
+**Severity:** 🟠 Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Evidence Assessment | 5 |
+| Numerical Reasoning | 5 |
+| Severity Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Research suggests that remote work can improve productivity and employee satisfaction for some individuals and organizations. However, the results vary depending on factors such as job type, management practices, collaboration needs, work environment, and individual preferences.
+
+Some studies have reported productivity gains or cost savings in specific contexts, while others have found little difference or identified challenges related to communication, collaboration, and employee well-being.
+
+Rather than relying on a single percentage, it is more accurate to conclude that the effectiveness of remote work depends on the organization, the role, and how remote work is implemented.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Statistics can make AI responses appear highly credible, even when the numbers are completely fabricated. Exact percentages, survey sizes, and averages should not be accepted without verifying their source and methodology.
+
+---
+
+## What I'd Do Differently
+
+When evaluating AI-generated statistics, I would check whether the response identifies the original source, explains how the data was collected, and avoids presenting estimates as universal facts.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- Numerical Reasoning
+- Evidence Assessment
+- Critical Thinking
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response relies on multiple precise statistics that are presented without evidence, includes what appears to be a fabricated large-scale survey, and overgeneralizes findings across all industries. These unsupported numerical claims make the response unreliable.
