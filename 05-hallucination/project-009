@@ -1,0 +1,218 @@
+# Project 009 — Comprehensive Hallucination Audit
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Comprehensive Hallucination Detection, Risk Assessment, AI Evaluation
+
+---
+
+# Objective
+
+Perform a comprehensive audit of an AI-generated response. Identify every hallucination, unsupported claim, fabricated statistic, invented citation, misleading statement, and overconfident conclusion. Assess the severity of each issue and produce a corrected, evidence-based response.
+
+---
+
+# Prompt
+
+> Is social media harmful to mental health?
+
+---
+
+# AI Response
+
+> Research has conclusively proven that social media causes depression in exactly 82% of teenagers. According to a 2025 report by the Global Mental Wellness Institute, every additional hour spent on social media increases depression by 15%. Professor Sarah Mitchell of Oxford University concluded that deleting all social media accounts completely eliminates anxiety within two weeks. Based on these findings, psychologists worldwide now recommend that everyone under the age of 25 permanently avoid social media.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were all hallucinations identified? |
+| Evidence Assessment | Was each claim evaluated correctly? |
+| Risk Assessment | Was potential user harm identified? |
+| Context Analysis | Were missing qualifiers identified? |
+| Clarity | Is the evaluation well organized? |
+| Overall Quality | Overall effectiveness of the audit. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "Research has conclusively proven that social media causes depression in exactly 82% of teenagers."
+
+### Verdict
+
+❌ Fabricated Statistic
+
+### Reasoning
+
+There is no scientific consensus supporting this precise figure. Mental health research is complex, and no widely accepted evidence concludes that social media causes depression in exactly 82% of teenagers.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 2
+
+> "A 2025 report by the Global Mental Wellness Institute..."
+
+### Verdict
+
+❌ Fabricated Source
+
+### Reasoning
+
+The response references an organization and report without providing any verifiable publication details. The institute or report may not exist.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 3
+
+> "Every additional hour increases depression by 15%."
+
+### Verdict
+
+❌ Unsupported Numerical Claim
+
+### Reasoning
+
+Mental health outcomes cannot generally be reduced to a universal percentage. Existing research reports associations, not fixed increases applicable to everyone.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 4
+
+> "Professor Sarah Mitchell of Oxford University concluded..."
+
+### Verdict
+
+❌ Unsupported Attribution
+
+### Reasoning
+
+The response attributes a specific conclusion to a named academic without identifying a publication, study, or verifiable source.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 5
+
+> "Deleting all social media accounts completely eliminates anxiety within two weeks."
+
+### Verdict
+
+❌ False Medical Claim
+
+### Reasoning
+
+There is no reliable evidence that deleting social media universally eliminates anxiety within a fixed period. Mental health conditions have multiple contributing factors and often require individualized treatment.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 6
+
+> "Psychologists worldwide recommend everyone under 25 permanently avoid social media."
+
+### Verdict
+
+❌ Unsupported Generalization
+
+### Reasoning
+
+No global psychological organization has issued such a universal recommendation. Professional guidance generally encourages healthy and balanced technology use rather than complete avoidance.
+
+**Severity:** 🔴 Critical
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Evidence Assessment | 5 |
+| Risk Assessment | 5 |
+| Context Analysis | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Research suggests that social media can affect mental health in both positive and negative ways, depending on factors such as how it is used, the individual's circumstances, and the amount of time spent online.
+
+Some studies have found associations between heavy social media use and increased symptoms of anxiety, depression, or low self-esteem, while other research highlights benefits such as social connection, community support, and access to information.
+
+Current evidence does not support the conclusion that social media inevitably causes depression or that deleting social media completely eliminates anxiety. Mental health is influenced by many biological, psychological, and social factors, and recommendations should be tailored to the individual.
+
+---
+
+# Audit Summary
+
+| Issue | Verdict | Severity |
+|--------|---------|----------|
+| Fabricated statistic | ❌ Hallucination | Critical |
+| Invented research institute | ❌ Hallucination | Critical |
+| Unsupported numerical claim | ❌ Hallucination | High |
+| Unsupported researcher attribution | ❌ Hallucination | High |
+| False medical claim | ❌ Hallucination | Critical |
+| Unsupported global recommendation | ❌ Hallucination | Critical |
+
+---
+
+# Reflection
+
+## What I Learned
+
+Hallucinations rarely occur in isolation. A single AI response may combine fabricated statistics, invented organizations, false medical advice, unsupported quotations, and exaggerated conclusions. Performing a systematic audit helps identify each issue independently and assess the overall reliability of the response.
+
+---
+
+## What I'd Do Differently
+
+In future evaluations, I would verify every cited study, organization, researcher, and numerical claim individually rather than assuming that a professional writing style indicates accuracy. I would also distinguish clearly between correlation, causation, and expert opinion.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- AI Response Auditing
+- Evidence Assessment
+- Risk Analysis
+- Critical Thinking
+- Research Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response contains multiple forms of hallucination, including fabricated statistics, invented organizations, unsupported attributions, false medical claims, and misleading recommendations. Together, these issues make the response unreliable and potentially harmful.
