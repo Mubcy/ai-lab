@@ -1,0 +1,204 @@
+# Project 001 — Basic Fact Verification
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Fact Verification, Evidence Assessment, Critical Thinking
+
+---
+
+# Objective
+
+Evaluate several factual claims and determine whether each is **True**, **False**, **Misleading**, or **Unverifiable**. Explain the reasoning behind each decision and identify what evidence would be required to verify the claim.
+
+---
+
+# Claims
+
+## Claim 1
+
+> The Great Wall of China is visible from the Moon with the naked eye.
+
+---
+
+## Claim 2
+
+> Water boils at 100°C under standard atmospheric pressure.
+
+---
+
+## Claim 3
+
+> Vitamin C completely prevents the common cold.
+
+---
+
+## Claim 4
+
+> Mount Everest is the tallest mountain above sea level.
+
+---
+
+## Claim 5
+
+> Artificial intelligence will replace every software engineer within five years.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Accuracy | Is the verdict correct? |
+| Evidence | Is the reasoning supported by reliable evidence? |
+| Context | Is important context included? |
+| Clarity | Is the explanation easy to understand? |
+| Confidence | Is the certainty appropriate? |
+| Overall Quality | Overall quality of the evaluation |
+
+---
+
+# Claim Evaluation
+
+## Claim 1
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+Astronauts have confirmed that the Great Wall cannot generally be distinguished from the Moon with the naked eye. Although it is long, it is relatively narrow and blends into the surrounding landscape.
+
+### Evidence Needed
+
+- Statements from space agencies
+- Astronaut observations
+- Scientific references on human visual limits
+
+---
+
+## Claim 2
+
+### Verdict
+
+✅ True
+
+### Reasoning
+
+Pure water boils at **100°C (212°F)** at **1 atmosphere (101.325 kPa)** of pressure. Changes in altitude or pressure alter the boiling point.
+
+### Evidence Needed
+
+- Physics textbooks
+- Scientific reference materials
+
+---
+
+## Claim 3
+
+### Verdict
+
+⚠️ Misleading
+
+### Reasoning
+
+Research suggests Vitamin C does **not completely prevent** the common cold for most people. Some studies indicate it may slightly reduce the duration or severity of symptoms in certain individuals.
+
+### Evidence Needed
+
+- Systematic reviews
+- Medical guidelines
+- Clinical studies
+
+---
+
+## Claim 4
+
+### Verdict
+
+✅ True
+
+### Reasoning
+
+Mount Everest has the highest elevation above sea level, approximately **8,849 meters (29,032 feet)**.
+
+### Evidence Needed
+
+- Geological surveys
+- Official mapping organizations
+
+---
+
+## Claim 5
+
+### Verdict
+
+❓ Unverifiable
+
+### Reasoning
+
+This is a prediction about the future rather than a verifiable fact. No current evidence can prove or disprove what will happen within five years.
+
+### Evidence Needed
+
+- None currently available.
+- Future observations would be required.
+
+---
+
+# Overall Evaluation
+
+| Claim | Verdict | Confidence |
+|--------|---------|------------|
+| Claim 1 | False | High |
+| Claim 2 | True | High |
+| Claim 3 | Misleading | High |
+| Claim 4 | True | High |
+| Claim 5 | Unverifiable | High |
+
+---
+
+# Reflection
+
+## What I Learned
+
+Fact checking involves more than deciding whether something is true or false. Some claims require additional context, while others cannot currently be verified because they concern future events or subjective predictions.
+
+---
+
+## What I'd Do Differently
+
+When evaluating real-world claims, I would verify information using multiple high-quality sources rather than relying on a single reference. I would also distinguish between factual statements, opinions, predictions, and misleading claims more explicitly.
+
+---
+
+# Skills Demonstrated
+
+- Fact Verification
+- Critical Thinking
+- Evidence Assessment
+- Claim Classification
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Fact Check Completed
+
+**Reason**
+
+The claims were evaluated using available evidence and classified according to their factual status. The analysis distinguishes between false statements, misleading claims, factual information, and claims that cannot currently be verified.
