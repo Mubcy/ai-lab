@@ -1,0 +1,266 @@
+# Project 003 — Numerical Claim Verification
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Numerical Reasoning, Statistical Verification, Critical Thinking
+
+---
+
+# Objective
+
+Evaluate numerical and statistical claims for accuracy. Determine whether each claim is **Accurate**, **Inaccurate**, **Misleading**, or **Unverifiable**, and explain the reasoning behind each decision.
+
+---
+
+# Claims
+
+## Claim 1
+
+> Approximately 71% of Earth's surface is covered by water.
+
+---
+
+## Claim 2
+
+> There are 1,000 meters in one kilometer.
+
+---
+
+## Claim 3
+
+> The human body contains exactly 206 bones.
+
+---
+
+## Claim 4
+
+> The world's population has exceeded 8 billion people.
+
+---
+
+## Claim 5
+
+> Nigeria has a population of exactly 250 million people.
+
+---
+
+## Claim 6
+
+> Light travels at approximately 300,000 kilometers per second in a vacuum.
+
+---
+
+## Claim 7
+
+> More than 90% of startups fail within their first year.
+
+---
+
+## Claim 8
+
+> One terabyte (TB) is always equal to exactly 1,000 gigabytes (GB).
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Accuracy | Is the verdict correct? |
+| Numerical Reasoning | Is the quantitative analysis sound? |
+| Context | Does the explanation include important qualifiers? |
+| Clarity | Is the reasoning easy to understand? |
+| Confidence | Is the confidence level appropriate? |
+| Overall Quality | Overall effectiveness of the evaluation. |
+
+---
+
+# Claim Evaluation
+
+## Claim 1
+
+### Verdict
+
+✅ Accurate
+
+### Reasoning
+
+Approximately **71%** of Earth's surface is covered by water, making this claim scientifically accurate.
+
+### Confidence
+
+High
+
+---
+
+## Claim 2
+
+### Verdict
+
+✅ Accurate
+
+### Reasoning
+
+The metric system defines **1 kilometer = 1,000 meters**.
+
+### Confidence
+
+High
+
+---
+
+## Claim 3
+
+### Verdict
+
+⚠️ Misleading
+
+### Reasoning
+
+An average adult has **206 bones**, but babies are born with around **270 bones**, many of which fuse as they grow. Saying the human body *always* contains exactly 206 bones ignores this important context.
+
+### Confidence
+
+High
+
+---
+
+## Claim 4
+
+### Verdict
+
+✅ Accurate
+
+### Reasoning
+
+Current global estimates place the world's population above **8 billion**, making this statement correct.
+
+### Confidence
+
+High
+
+---
+
+## Claim 5
+
+### Verdict
+
+❌ Inaccurate
+
+### Reasoning
+
+Population estimates change over time and vary slightly depending on the source. Claiming Nigeria has **exactly** 250 million people is too precise to be considered accurate.
+
+### Confidence
+
+High
+
+---
+
+## Claim 6
+
+### Verdict
+
+✅ Accurate
+
+### Reasoning
+
+The speed of light in a vacuum is approximately **299,792 kilometers per second**, commonly rounded to **300,000 km/s**.
+
+### Confidence
+
+High
+
+---
+
+## Claim 7
+
+### Verdict
+
+⚠️ Misleading
+
+### Reasoning
+
+Startup failure statistics vary depending on how "failure," "startup," industry, location, and timeframe are defined. While many startups fail, the statement is an oversimplification and lacks supporting context.
+
+### Confidence
+
+Medium
+
+---
+
+## Claim 8
+
+### Verdict
+
+⚠️ Misleading
+
+### Reasoning
+
+Storage manufacturers often define **1 TB = 1,000 GB** (decimal), while many operating systems calculate storage using binary units, where **1 TiB = 1,024 GiB**. Without specifying the measurement standard, the claim is incomplete.
+
+### Confidence
+
+High
+
+---
+
+# Summary
+
+| Claim | Verdict | Confidence |
+|--------|---------|------------|
+| Earth's surface is 71% water | Accurate | High |
+| 1 km = 1,000 m | Accurate | High |
+| Humans have exactly 206 bones | Misleading | High |
+| World population exceeds 8 billion | Accurate | High |
+| Nigeria has exactly 250 million people | Inaccurate | High |
+| Speed of light ≈ 300,000 km/s | Accurate | High |
+| 90% of startups fail in one year | Misleading | Medium |
+| 1 TB always equals 1,000 GB | Misleading | High |
+
+---
+
+# Reflection
+
+## What I Learned
+
+Numbers can make a claim appear authoritative, but they still require verification. Precision, context, definitions, and the date of the information all influence whether a numerical claim is truly accurate.
+
+---
+
+## What I'd Do Differently
+
+For real-world numerical claims, I would verify the figures using recent and authoritative sources. I would also distinguish between exact values, estimates, averages, and rounded figures to avoid overstating certainty.
+
+---
+
+# Skills Demonstrated
+
+- Numerical Fact Checking
+- Statistical Reasoning
+- Critical Thinking
+- Context Analysis
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Numerical Claims Evaluated
+
+**Reason**
+
+Each numerical claim was assessed based on mathematical accuracy, scientific knowledge, context, and appropriate precision. The evaluation highlights that numerical statements often become misleading when important qualifiers or definitions are omitted.
