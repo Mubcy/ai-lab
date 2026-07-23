@@ -1,0 +1,288 @@
+# Project 010 — End-to-End AI Fact-Checking Audit
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+End-to-End Fact Checking, Evidence Assessment, AI Evaluation
+
+---
+
+# Objective
+
+Perform a complete audit of an AI-generated response. Extract every factual claim, verify its accuracy, identify misinformation or missing context, assign confidence levels, assess user risk, and produce a corrected response that is accurate, balanced, and evidence-based.
+
+---
+
+# Prompt
+
+> Is artificial intelligence replacing software engineers?
+
+---
+
+# AI Response
+
+Artificial intelligence is rapidly replacing software engineers. Within the next five years, over 90% of programming jobs will disappear because AI can already write better code than humans.
+
+Companies no longer need junior developers since AI tools can build complete production systems without human oversight. Universities are beginning to phase out computer science degrees because they are becoming obsolete.
+
+The future belongs only to AI engineers, and anyone learning programming today is wasting their time.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Claim Extraction | Were all factual claims identified? |
+| Fact Verification | Were claims evaluated accurately? |
+| Context Analysis | Were important qualifiers identified? |
+| Confidence Assessment | Were confidence levels appropriate? |
+| Risk Assessment | Was potential user harm evaluated? |
+| Clarity | Is the evaluation well organized? |
+| Overall Quality | Overall effectiveness of the audit. |
+
+---
+
+# Claim Audit
+
+---
+
+## Claim 1
+
+### Statement
+
+> Artificial intelligence is rapidly replacing software engineers.
+
+### Verdict
+
+⚠️ Partially Supported
+
+### Confidence
+
+🟡 Medium
+
+### Reasoning
+
+AI is changing software development by automating certain tasks such as code generation, debugging assistance, and documentation. However, current evidence suggests AI is augmenting many software engineering roles rather than broadly replacing software engineers.
+
+**Risk:** Medium
+
+---
+
+## Claim 2
+
+### Statement
+
+> Over 90% of programming jobs will disappear within five years.
+
+### Verdict
+
+❌ Unsupported
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+There is no widely accepted evidence supporting this prediction. Employment forecasts vary significantly, and no credible consensus predicts the disappearance of over 90% of programming jobs within five years.
+
+**Risk:** High
+
+---
+
+## Claim 3
+
+### Statement
+
+> AI already writes better code than humans.
+
+### Verdict
+
+⚠️ Misleading
+
+### Confidence
+
+🟡 Medium
+
+### Reasoning
+
+AI performs well on many coding tasks and can significantly improve developer productivity. However, it still produces bugs, security vulnerabilities, hallucinations, and incorrect implementations. Human review remains essential for many production systems.
+
+**Risk:** Medium
+
+---
+
+## Claim 4
+
+### Statement
+
+> Companies no longer need junior developers.
+
+### Verdict
+
+❌ False
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+Some companies have adjusted hiring strategies because of AI, but junior developers continue to be hired across many industries. Hiring trends differ by company, region, and market conditions.
+
+**Risk:** Medium
+
+---
+
+## Claim 5
+
+### Statement
+
+> AI tools can build complete production systems without human oversight.
+
+### Verdict
+
+❌ False
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+AI can assist with generating applications and code, but production software generally requires human oversight for architecture, testing, security, compliance, deployment, and maintenance.
+
+**Risk:** High
+
+---
+
+## Claim 6
+
+### Statement
+
+> Universities are phasing out computer science degrees.
+
+### Verdict
+
+❌ False
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+There is no evidence that universities are broadly discontinuing computer science degrees. Many institutions continue to expand computer science and AI-related programs.
+
+**Risk:** High
+
+---
+
+## Claim 7
+
+### Statement
+
+> Learning programming today is a waste of time.
+
+### Verdict
+
+❌ Opinion Presented as Fact
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+This is a subjective opinion rather than a factual claim. Programming remains a valuable skill, although the way developers work continues to evolve with AI tools.
+
+**Risk:** High
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Claim Extraction | 5 |
+| Fact Verification | 5 |
+| Context Analysis | 5 |
+| Confidence Assessment | 5 |
+| Risk Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Artificial intelligence is changing the software engineering profession by automating repetitive tasks, assisting with code generation, debugging, documentation, and testing. Many developers now use AI tools to improve productivity.
+
+However, there is no reliable evidence that AI will eliminate the vast majority of software engineering jobs within the next five years. Instead, many experts expect software engineering roles to evolve, with developers increasingly working alongside AI systems.
+
+Junior developers may face changing expectations as AI handles more routine work, but foundational programming skills, problem-solving, software design, security, and system architecture remain valuable. Universities continue to invest in computer science education while expanding AI-focused courses to prepare students for an evolving industry.
+
+Rather than replacing software engineers entirely, AI is currently best understood as a powerful tool that changes how software is developed.
+
+---
+
+# Audit Summary
+
+| Claim | Verdict | Confidence | Risk |
+|--------|---------|------------|------|
+| AI is replacing software engineers | Partially Supported | Medium | Medium |
+| 90% of jobs disappear in 5 years | Unsupported | High | High |
+| AI writes better code than humans | Misleading | Medium | Medium |
+| Junior developers are no longer needed | False | High | Medium |
+| AI builds production systems alone | False | High | High |
+| Universities are ending CS degrees | False | High | High |
+| Learning programming is a waste of time | Opinion Presented as Fact | High | High |
+
+---
+
+# Reflection
+
+## What I Learned
+
+AI-generated responses often mix facts, predictions, opinions, and unsupported claims. A thorough fact-check requires evaluating each statement independently rather than accepting or rejecting the entire response. Confidence levels and context are just as important as determining factual accuracy.
+
+---
+
+## What I'd Do Differently
+
+For future evaluations, I would support each verdict with citations from authoritative sources, especially for rapidly evolving topics such as artificial intelligence, employment trends, and higher education. I would also distinguish more clearly between factual claims, forecasts, and subjective opinions.
+
+---
+
+# Skills Demonstrated
+
+- End-to-End Fact Checking
+- AI Response Auditing
+- Claim Extraction
+- Evidence Assessment
+- Confidence Calibration
+- Risk Analysis
+- Critical Thinking
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response contains a combination of exaggerated predictions, unsupported statistics, misleading generalizations, and opinions presented as factual statements. Although AI is transforming software development, the response overstates current capabilities and future impacts without sufficient evidence. A balanced answer should distinguish between observed trends, expert forecasts, and speculative claims.
