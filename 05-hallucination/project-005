@@ -1,0 +1,175 @@
+# Project 005 — Detecting False Quotes & Misattribution
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+False Quotes, Misattribution, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response for fabricated or misattributed quotations. Identify quotes that lack reliable evidence, determine whether they have been incorrectly attributed to real individuals, assess their severity, and produce a corrected response.
+
+---
+
+# Prompt
+
+> What did Albert Einstein say about success?
+
+---
+
+# AI Response
+
+> Albert Einstein famously said, "Success comes from working 18 hours every day and never taking a vacation." He also wrote in his 1949 book *The Science of Success* that "money follows intelligence, and intelligence follows discipline." These ideas became the foundation of modern productivity research.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were fabricated quotes identified? |
+| Attribution Verification | Were incorrect attributions recognized? |
+| Evidence Assessment | Was the reasoning supported? |
+| Severity Assessment | Was the potential impact evaluated? |
+| Clarity | Is the explanation well organized? |
+| Overall Quality | Overall effectiveness of the evaluation. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+> "Success comes from working 18 hours every day and never taking a vacation."
+
+### Verdict
+
+❌ Fabricated Quote
+
+### Reasoning
+
+There is no reliable historical evidence that Albert Einstein made this statement. The quote does not appear in verified collections of his writings or speeches.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 2
+
+> "He wrote in his 1949 book *The Science of Success*..."
+
+### Verdict
+
+❌ Fabricated Source
+
+### Reasoning
+
+There is no known book by Albert Einstein titled *The Science of Success*. The response invents a publication to make the quote appear credible.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 3
+
+> "Money follows intelligence, and intelligence follows discipline."
+
+### Verdict
+
+❌ Hallucinated Quote
+
+### Reasoning
+
+No reliable evidence links this quotation to Albert Einstein.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 4
+
+> "These ideas became the foundation of modern productivity research."
+
+### Verdict
+
+❌ Unsupported Historical Claim
+
+### Reasoning
+
+Modern productivity research developed through contributions from many researchers across psychology, management, economics, and organizational behavior—not from the fabricated ideas presented in the response.
+
+**Severity:** 🟠 Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Attribution Verification | 5 |
+| Evidence Assessment | 5 |
+| Severity Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+Albert Einstein is widely associated with many quotations, but not all of them are authentic. One statement that is generally supported by historical evidence is:
+
+> "Life is like riding a bicycle. To keep your balance, you must keep moving."
+
+Many other quotes commonly attributed to Einstein cannot be reliably verified.
+
+When discussing famous quotations, it is important to distinguish between well-documented statements and those that have been inaccurately attributed over time.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Famous individuals are frequently misquoted. AI systems may confidently attribute fabricated statements to well-known people, making the information appear more trustworthy than it actually is.
+
+---
+
+## What I'd Do Differently
+
+For future evaluations, I would verify quotations against primary sources, reputable quote databases, biographies, or collected writings instead of relying on repeated internet references.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- Quote Verification
+- Attribution Analysis
+- Evidence Assessment
+- Critical Thinking
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response fabricates multiple quotations, invents a nonexistent book, and falsely attributes unsupported ideas to Albert Einstein. These hallucinations create a misleading impression of historical accuracy and undermine the credibility of the response.
