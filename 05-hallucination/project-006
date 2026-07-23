@@ -1,0 +1,202 @@
+# Project 006 — Detecting Hallucinated Technical Information
+
+## Date
+
+2026-07-23
+
+## Category
+
+Hallucination Detection
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Technical Hallucinations, Code Evaluation, AI Reliability
+
+---
+
+# Objective
+
+Evaluate an AI-generated technical response for hallucinated APIs, programming language features, and unsupported technical claims. Identify inaccurate or fabricated information, explain why it is incorrect, assess its severity, and produce a technically accurate replacement.
+
+---
+
+# Prompt
+
+> How do I read a JSON file in Python?
+
+---
+
+# AI Response
+
+```python
+import json
+
+data = json.read_json("users.json")
+
+print(data)
+```
+
+The `read_json()` function is built into Python's standard `json` library and automatically validates the JSON schema before loading the file. If the JSON is invalid, Python repairs the file automatically and continues execution.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Hallucination Detection | Were technical hallucinations identified correctly? |
+| Technical Accuracy | Were programming concepts evaluated accurately? |
+| Evidence Assessment | Was the reasoning technically sound? |
+| Severity Assessment | Was the impact on developers assessed appropriately? |
+| Clarity | Is the explanation easy to understand? |
+| Overall Quality | Overall usefulness of the evaluation. |
+
+---
+
+# Hallucination Analysis
+
+## Statement 1
+
+```python
+json.read_json("users.json")
+```
+
+### Verdict
+
+❌ Hallucinated API
+
+### Reasoning
+
+Python's built-in `json` module does not provide a `read_json()` function.
+
+To read JSON using the standard library, developers typically use:
+
+```python
+with open("users.json") as file:
+    data = json.load(file)
+```
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 2
+
+> "`read_json()` is built into Python's standard json library."
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+The standard `json` module includes functions such as `load()`, `loads()`, `dump()`, and `dumps()`. It does not include `read_json()`.
+
+The confusion may come from libraries such as **pandas**, which provides `pandas.read_json()`.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Statement 3
+
+> "The function automatically validates the JSON schema."
+
+### Verdict
+
+❌ Hallucinated Feature
+
+### Reasoning
+
+The standard `json` module parses JSON syntax but does not perform JSON Schema validation.
+
+Schema validation requires additional libraries such as `jsonschema`.
+
+**Severity:** 🔴 High
+
+---
+
+## Statement 4
+
+> "Python repairs invalid JSON automatically."
+
+### Verdict
+
+❌ False
+
+### Reasoning
+
+If invalid JSON is encountered, Python raises a `json.JSONDecodeError`. It does not repair malformed JSON automatically.
+
+**Severity:** 🔴 Critical
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Hallucination Detection | 5 |
+| Technical Accuracy | 5 |
+| Evidence Assessment | 5 |
+| Severity Assessment | 5 |
+| Clarity | 5 |
+| Overall | 5 |
+
+---
+
+# Corrected Response
+
+To read a JSON file using Python's standard library:
+
+```python
+import json
+
+with open("users.json", "r") as file:
+    data = json.load(file)
+
+print(data)
+```
+
+If the JSON file contains invalid syntax, Python raises a `json.JSONDecodeError`. If schema validation is required, developers should use a dedicated library such as `jsonschema`.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Technical hallucinations often involve invented APIs, nonexistent library functions, or incorrect descriptions of software behavior. Even when code appears plausible, every function, method, and feature should be verified against official documentation.
+
+---
+
+## What I'd Do Differently
+
+When evaluating technical responses, I would verify API names, function signatures, expected behavior, and error handling using the official documentation instead of assuming code is correct because it looks familiar.
+
+---
+
+# Skills Demonstrated
+
+- Hallucination Detection
+- Technical Evaluation
+- API Verification
+- Software Engineering
+- AI Evaluation
+- Code Review
+- Critical Thinking
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ❌ Reject
+
+### Reason
+
+The response contains multiple technical hallucinations, including a nonexistent API, fabricated library capabilities, and incorrect descriptions of Python's behavior. Following this advice would result in runtime errors and mislead developers about how the standard `json` module works.
