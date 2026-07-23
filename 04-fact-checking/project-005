@@ -1,0 +1,181 @@
+# Project 005 — Context & Missing Information
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Context Analysis, Missing Information Detection, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response for missing context. Determine whether the information presented is technically accurate but potentially misleading due to omitted details. Identify missing information, explain why it matters, and produce a more complete and balanced response.
+
+---
+
+# Prompt
+
+> Is intermittent fasting good for everyone?
+
+---
+
+# AI Response
+
+> Yes. Intermittent fasting is one of the healthiest eating patterns available. It helps people lose weight, improves metabolism, lowers the risk of chronic diseases, and increases lifespan. Everyone should practice intermittent fasting because there are no significant disadvantages.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Factual Accuracy | Are the factual claims correct? |
+| Context Analysis | Are important omissions identified? |
+| Completeness | Does the evaluation highlight missing information? |
+| Risk Assessment | Are potential harms recognized? |
+| Clarity | Is the explanation easy to understand? |
+| Overall Quality | Overall effectiveness of the evaluation. |
+
+---
+
+# Missing Context Analysis
+
+## Issue 1
+
+### Statement
+
+> "Intermittent fasting is one of the healthiest eating patterns available."
+
+### Missing Context
+
+Some studies suggest intermittent fasting can provide health benefits, but outcomes vary depending on the individual, the fasting method, lifestyle, and overall diet quality.
+
+### Why It Matters
+
+Presenting the claim as universally true ignores important differences in health conditions and individual responses.
+
+**Severity:** 🟠 Medium
+
+---
+
+## Issue 2
+
+### Statement
+
+> "Everyone should practice intermittent fasting."
+
+### Missing Context
+
+Intermittent fasting is not appropriate for everyone. Certain groups—including pregnant or breastfeeding individuals, children, people with eating disorders, and some people with medical conditions—may require different nutritional approaches.
+
+### Why It Matters
+
+Universal recommendations in health advice may encourage unsafe behavior.
+
+**Severity:** 🔴 Critical
+
+---
+
+## Issue 3
+
+### Statement
+
+> "There are no significant disadvantages."
+
+### Missing Context
+
+Some people experience hunger, headaches, fatigue, difficulty concentrating, or challenges maintaining the eating pattern. Long-term suitability varies among individuals.
+
+### Why It Matters
+
+Users should understand both potential benefits and potential drawbacks before making health decisions.
+
+**Severity:** 🔴 High
+
+---
+
+## Issue 4
+
+### Statement
+
+> "Intermittent fasting increases lifespan."
+
+### Missing Context
+
+Evidence regarding lifespan is limited. Much of the research comes from animal studies, while evidence in humans remains less conclusive.
+
+### Why It Matters
+
+Animal research should not automatically be generalized to humans.
+
+**Severity:** 🟠 Medium
+
+---
+
+# Overall Evaluation
+
+| Category | Score (/5) |
+|----------|------------|
+| Factual Accuracy | 3 |
+| Context Analysis | 5 |
+| Completeness | 5 |
+| Risk Assessment | 5 |
+| Clarity | 5 |
+| Overall | 4.6 |
+
+---
+
+# Improved Response
+
+Intermittent fasting may provide health benefits for some people, including weight management and improvements in certain metabolic markers. However, its effectiveness depends on factors such as overall diet quality, physical activity, medical history, and individual preferences.
+
+It is not appropriate for everyone. Pregnant or breastfeeding individuals, children, people with certain medical conditions, and those with a history of eating disorders should seek professional medical advice before trying intermittent fasting.
+
+Some individuals may also experience side effects such as hunger, fatigue, headaches, or difficulty maintaining the eating schedule. Rather than being a universally superior eating pattern, intermittent fasting is one of several approaches that may be beneficial for some individuals when implemented safely.
+
+---
+
+# Reflection
+
+## What I Learned
+
+A response can contain mostly accurate facts while still being misleading if important context is omitted. Effective fact-checking requires evaluating not only what is said but also what is left unsaid.
+
+---
+
+## What I'd Do Differently
+
+When reviewing AI-generated content, I would consider whether the response fairly represents both benefits and limitations. I would also identify populations for whom general recommendations may not apply.
+
+---
+
+# Skills Demonstrated
+
+- Context Analysis
+- Missing Information Detection
+- Fact Checking
+- Critical Thinking
+- Risk Assessment
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ⚠️ Accept with Major Revisions
+
+**Reason**
+
+Although the response contains elements supported by research, it overgeneralizes the benefits of intermittent fasting and omits important limitations, risks, and exceptions. The lack of context makes the advice potentially misleading for some readers.
