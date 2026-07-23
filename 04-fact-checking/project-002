@@ -1,0 +1,244 @@
+# Project 002 — Claim Classification
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Claim Classification, Critical Thinking, Fact Checking
+
+---
+
+# Objective
+
+Classify different types of claims before attempting to verify them. Determine whether each statement is a **Fact**, **Opinion**, **Prediction**, or **Unverifiable Claim**, then explain the reasoning behind the classification.
+
+---
+
+# Claim Categories
+
+| Category | Description |
+|----------|-------------|
+| Fact | A statement that can be verified as true or false using evidence. |
+| Opinion | A personal belief, preference, or value judgment. |
+| Prediction | A statement about a future event that cannot currently be verified. |
+| Unverifiable | A claim that cannot currently be proven or disproven due to insufficient evidence. |
+
+---
+
+# Claims
+
+## Claim 1
+
+> The Earth revolves around the Sun.
+
+---
+
+## Claim 2
+
+> Python is the best programming language.
+
+---
+
+## Claim 3
+
+> Artificial General Intelligence (AGI) will exist before 2035.
+
+---
+
+## Claim 4
+
+> Drinking eight glasses of water every day is necessary for everyone.
+
+---
+
+## Claim 5
+
+> Shakespeare was the greatest writer who ever lived.
+
+---
+
+## Claim 6
+
+> The Amazon rainforest produces 20% of the world's oxygen.
+
+---
+
+## Claim 7
+
+> Quantum computers will replace classical computers.
+
+---
+
+## Claim 8
+
+> The Eiffel Tower is located in Paris.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Correct Classification | Was the claim placed in the correct category? |
+| Reasoning | Is the explanation logical and complete? |
+| Clarity | Is the reasoning easy to understand? |
+| Context | Does the explanation include important nuances? |
+| Overall Quality | Overall effectiveness of the evaluation. |
+
+---
+
+# Claim Classification
+
+## Claim 1
+
+### Classification
+
+✅ Fact
+
+### Reasoning
+
+The Earth's orbit around the Sun is supported by centuries of astronomical observation and scientific evidence. The statement can be objectively verified.
+
+---
+
+## Claim 2
+
+### Classification
+
+💭 Opinion
+
+### Reasoning
+
+"Best" depends on criteria such as performance, ease of use, ecosystem, or personal preference. There is no single objective answer.
+
+---
+
+## Claim 3
+
+### Classification
+
+🔮 Prediction
+
+### Reasoning
+
+This concerns a future event. It cannot currently be verified or falsified because the outcome has not yet occurred.
+
+---
+
+## Claim 4
+
+### Classification
+
+⚠️ Misleading Fact Claim
+
+### Reasoning
+
+Hydration is important, but there is no universal rule requiring everyone to drink exactly eight glasses of water daily. Individual needs vary based on age, activity level, climate, health, and diet.
+
+---
+
+## Claim 5
+
+### Classification
+
+💭 Opinion
+
+### Reasoning
+
+"Greatest writer" is a subjective judgment based on literary taste and evaluation criteria.
+
+---
+
+## Claim 6
+
+### Classification
+
+⚠️ Misleading Fact Claim
+
+### Reasoning
+
+Although widely repeated, this statement oversimplifies the science. The Amazon produces oxygen through photosynthesis but also consumes much of it through respiration and decomposition, making the "20%" claim misleading.
+
+---
+
+## Claim 7
+
+### Classification
+
+🔮 Prediction
+
+### Reasoning
+
+This is a forecast about future technological development. It cannot be verified today.
+
+---
+
+## Claim 8
+
+### Classification
+
+✅ Fact
+
+### Reasoning
+
+The Eiffel Tower's location is objectively verifiable through geographical records.
+
+---
+
+# Summary
+
+| Claim | Classification |
+|--------|---------------|
+| Earth revolves around the Sun | Fact |
+| Python is the best language | Opinion |
+| AGI before 2035 | Prediction |
+| Eight glasses of water | Misleading Fact Claim |
+| Shakespeare was the greatest writer | Opinion |
+| Amazon produces 20% of oxygen | Misleading Fact Claim |
+| Quantum computers will replace classical computers | Prediction |
+| Eiffel Tower is in Paris | Fact |
+
+---
+
+# Reflection
+
+## What I Learned
+
+Not every statement should be approached as a factual claim. Correctly identifying whether a statement is a fact, opinion, prediction, or misleading claim is the first step in effective fact-checking. Proper classification helps determine the type of evidence needed and prevents subjective opinions from being treated as objective facts.
+
+---
+
+## What I'd Do Differently
+
+For more complex claims, I would distinguish between partially true, misleading, and unverifiable statements more explicitly. I would also consider how wording, context, and missing information can change a claim's interpretation.
+
+---
+
+# Skills Demonstrated
+
+- Claim Classification
+- Critical Thinking
+- Fact Checking
+- Context Analysis
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Classification Completed
+
+**Reason**
+
+Each claim was categorized based on whether it could be objectively verified, represented a personal judgment, predicted a future event, or contained misleading factual elements. Accurate classification provides the foundation for effective fact-checking.
