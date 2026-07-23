@@ -25,15 +25,15 @@ The projects simulate real-world AI evaluation tasks where factual accuracy and 
 | Project | Topic | Status |
 |----------|-------|--------|
 | Project 001 | Basic Fact Verification | ✅ |
-| Project 002 | Claim Classification | ⬜ |
-| Project 003 | Numerical Claim Verification | ⬜ |
-| Project 004 | Misinformation Detection | ⬜ |
-| Project 005 | Context & Missing Information | ⬜ |
-| Project 006 | Multi-Claim Fact Checking | ⬜ |
-| Project 007 | Contradictory Evidence Verification | ⬜ |
-| Project 008 | Confidence Rating & Uncertainty | ⬜ |
-| Project 009 | Fact-Checking AI Responses | ⬜ |
-| Project 010 | End-to-End Fact Check Audit | ⬜ |
+| Project 002 | Claim Classification | ✅ |
+| Project 003 | Numerical Claim Verification | ✅ |
+| Project 004 | Misinformation Detection | ✅ |
+| Project 005 | Context & Missing Information | ✅ |
+| Project 006 | Multi-Claim Fact Checking | ✅ |
+| Project 007 | Contradictory Evidence Verification | ✅ |
+| Project 008 | Confidence Rating & Uncertainty | ✅ |
+| Project 009 | Fact-Checking AI Responses | ✅ |
+| Project 010 | End-to-End Fact Check Audit | ✅ |
 
 ---
 
