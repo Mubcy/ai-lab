@@ -1,0 +1,217 @@
+# Project 008 — Confidence Rating & Uncertainty
+
+## Date
+
+2026-07-23
+
+## Category
+
+Fact Checking
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Confidence Assessment, Uncertainty Analysis, AI Evaluation
+
+---
+
+# Objective
+
+Evaluate factual claims and assign an appropriate confidence level based on the quality, quantity, and consistency of the available evidence. Explain why the confidence level is justified and distinguish between certainty, probability, and uncertainty.
+
+---
+
+# Confidence Scale
+
+| Level | Description |
+|--------|-------------|
+| High | Strong, consistent evidence from reliable sources. |
+| Medium | Evidence generally supports the claim but has limitations or conflicting findings. |
+| Low | Limited, weak, or inconsistent evidence. |
+| Very Low | Little or no reliable evidence available. |
+
+---
+
+# Claims
+
+## Claim 1
+
+> Smoking cigarettes increases the risk of lung cancer.
+
+---
+
+## Claim 2
+
+> Drinking green tea prevents Alzheimer's disease.
+
+---
+
+## Claim 3
+
+> Artificial General Intelligence (AGI) will surpass human intelligence before 2040.
+
+---
+
+## Claim 4
+
+> Exercise improves mental health for many people.
+
+---
+
+## Claim 5
+
+> Every cryptocurrency will eventually become worthless.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Fact Verification | Is the claim evaluated correctly? |
+| Confidence Rating | Is the confidence level appropriate? |
+| Evidence Assessment | Is the supporting evidence explained? |
+| Uncertainty Analysis | Are limitations acknowledged? |
+| Clarity | Is the reasoning easy to understand? |
+| Overall Quality | Overall effectiveness of the evaluation. |
+
+---
+
+# Claim Evaluation
+
+## Claim 1
+
+### Verdict
+
+✅ Supported
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+Extensive epidemiological research conducted over decades consistently shows that smoking significantly increases the risk of lung cancer. The evidence is strong, consistent, and supported by major public health organizations worldwide.
+
+---
+
+## Claim 2
+
+### Verdict
+
+⚠️ Limited Evidence
+
+### Confidence
+
+🟡 Medium
+
+### Reasoning
+
+Some observational studies suggest possible cognitive benefits associated with green tea consumption, but current evidence does not demonstrate that it prevents Alzheimer's disease. More high-quality clinical research is needed.
+
+---
+
+## Claim 3
+
+### Verdict
+
+❓ Unverifiable
+
+### Confidence
+
+🔴 Very Low
+
+### Reasoning
+
+This is a prediction about future technological development. No current evidence can reliably verify or refute the claim.
+
+---
+
+## Claim 4
+
+### Verdict
+
+✅ Supported
+
+### Confidence
+
+🟢 High
+
+### Reasoning
+
+Numerous systematic reviews and clinical guidelines support the role of regular physical activity in improving mental health outcomes for many individuals, although effects vary between people.
+
+---
+
+## Claim 5
+
+### Verdict
+
+❓ Speculative
+
+### Confidence
+
+🔴 Very Low
+
+### Reasoning
+
+The long-term future of cryptocurrencies cannot be determined with certainty. This statement is speculative and cannot currently be verified.
+
+---
+
+# Confidence Summary
+
+| Claim | Verdict | Confidence |
+|--------|---------|------------|
+| Smoking causes lung cancer | Supported | High |
+| Green tea prevents Alzheimer's | Limited Evidence | Medium |
+| AGI before 2040 | Unverifiable | Very Low |
+| Exercise improves mental health | Supported | High |
+| Every cryptocurrency will fail | Speculative | Very Low |
+
+---
+
+# Why Confidence Matters
+
+Fact-checking is not only about deciding whether a claim is true or false. It also involves communicating how reliable the available evidence is. Claims supported by decades of consistent research deserve greater confidence than those based on limited studies, expert opinion, or future predictions.
+
+Appropriately expressing uncertainty helps prevent overconfidence and improves the trustworthiness of AI-generated responses.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Evidence exists on a spectrum. Some claims are supported by overwhelming evidence, while others remain uncertain or speculative. Assigning confidence levels allows evaluators to communicate both conclusions and the strength of the supporting evidence.
+
+---
+
+## What I'd Do Differently
+
+For more complex topics, I would include a discussion of how study quality, sample size, methodology, and consistency across independent studies influence confidence ratings.
+
+---
+
+# Skills Demonstrated
+
+- Confidence Assessment
+- Evidence Evaluation
+- Uncertainty Analysis
+- Fact Verification
+- Critical Thinking
+- AI Evaluation
+- Technical Writing
+
+---
+
+# Final Verdict
+
+**Decision:** ✅ Confidence Assessment Completed
+
+**Reason**
+
+Each claim was evaluated according to the available evidence and assigned a confidence level that reflects the reliability and consistency of current research. The evaluation distinguishes between well-established facts, emerging evidence, and speculative claims.
