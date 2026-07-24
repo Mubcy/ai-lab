@@ -1,0 +1,225 @@
+# Project 006 — Refactoring for Maintainability
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Refactoring, Maintainability, Code Structure, Software Engineering Best Practices
+
+---
+
+# Objective
+
+Evaluate an AI-generated Python implementation that contains duplicated logic and poor organization. Assess its maintainability, identify refactoring opportunities, and recommend improvements without changing the program's functionality.
+
+---
+
+# Prompt
+
+Write a Python program that calculates the total price of books and electronic items in a shopping cart.
+
+---
+
+# AI-Generated Code
+
+```python
+def calculate_total(cart):
+    total = 0
+
+    for item in cart:
+        if item["type"] == "book":
+            total += item["price"] * item["quantity"]
+
+    for item in cart:
+        if item["type"] == "electronics":
+            total += item["price"] * item["quantity"]
+
+    return total
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Maintainability | Is the code easy to modify? |
+| Readability | Is the implementation easy to understand? |
+| Code Duplication | Is unnecessary repetition present? |
+| Modularity | Can the code be organized more effectively? |
+| Best Practices | Does it follow software engineering principles? |
+
+---
+
+# Evaluation
+
+## Maintainability
+
+**Rating:** 3 / 5
+
+The function is relatively short, but duplicated logic means future updates would require changes in multiple places, increasing maintenance effort.
+
+---
+
+## Readability
+
+**Rating:** 4 / 5
+
+The implementation is straightforward and easy to follow. However, the repeated loops make the overall structure less clear than necessary.
+
+---
+
+## Code Duplication
+
+**Rating:** 2 / 5
+
+The function iterates through the same collection twice using nearly identical logic.
+
+This violates the **DRY (Don't Repeat Yourself)** principle.
+
+---
+
+## Modularity
+
+**Rating:** 3 / 5
+
+All processing occurs within a single function.
+
+As additional product types are introduced, the implementation will become increasingly difficult to maintain.
+
+---
+
+## Best Practices
+
+**Rating:** 4 / 5
+
+The code produces the correct result but can be simplified by reducing duplication and improving extensibility.
+
+---
+
+# Refactoring Opportunities
+
+## Opportunity 1
+
+Combine the repeated loops into a single iteration over the shopping cart.
+
+---
+
+## Opportunity 2
+
+Avoid duplicating multiplication logic.
+
+The calculation:
+
+```python
+item["price"] * item["quantity"]
+```
+
+appears multiple times.
+
+---
+
+## Opportunity 3
+
+Replace hardcoded product types with a more flexible approach if additional categories are expected in the future.
+
+---
+
+## Opportunity 4
+
+Add a function docstring describing:
+
+- Purpose
+- Parameters
+- Return value
+
+---
+
+## Opportunity 5
+
+Use type hints to improve readability and editor support.
+
+---
+
+# Maintainability Assessment
+
+| Category | Rating |
+|----------|--------|
+| Readability | 4 / 5 |
+| Maintainability | 3 / 5 |
+| Modularity | 3 / 5 |
+| Code Duplication | 2 / 5 |
+| Best Practices | 4 / 5 |
+
+Overall Score:
+
+**3.2 / 5**
+
+---
+
+# Strengths
+
+- Produces the correct total.
+- Easy to understand.
+- Simple control flow.
+- Minimal complexity.
+
+---
+
+# Weaknesses
+
+- Duplicate iteration over the same data.
+- Hardcoded item categories.
+- Limited scalability.
+- Missing documentation and type hints.
+
+---
+
+# Recommendations
+
+- Iterate through the shopping cart only once.
+- Eliminate duplicated calculations.
+- Improve extensibility by reducing dependence on hardcoded values.
+- Add documentation and type annotations.
+- Write unit tests to verify behavior after refactoring.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Refactoring improves the quality of code without changing its functionality. Reducing duplication, improving structure, and increasing modularity make software easier to maintain and extend over time.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would refactor incrementally while maintaining a comprehensive suite of automated tests. This ensures that structural improvements do not introduce regressions and allows the codebase to evolve safely.
+
+---
+
+# Skills Demonstrated
+
+- Code Review
+- Refactoring Analysis
+- Maintainability Assessment
+- Readability Evaluation
+- Software Engineering Best Practices
+- AI Code Evaluation
+
+---
+
+# Final Outcome
+
+The AI-generated implementation correctly calculates the shopping cart total but contains unnecessary duplication that reduces maintainability. The review identifies several refactoring opportunities that improve readability, extensibility, and long-term maintainability while preserving the program's existing behavior.
