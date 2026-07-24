@@ -1,0 +1,200 @@
+# Project 004 — Writing Error Message Documentation
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Error Documentation, Troubleshooting, User Support
+
+---
+
+# Objective
+
+Create clear documentation for common application error messages. The documentation should explain what each error means, its possible causes, and practical steps users can take to resolve the issue.
+
+---
+
+# Scenario
+
+A web application displays several error messages during login and account management. Users frequently contact support because they don't understand what these errors mean.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Are the error explanations easy to understand? |
+| Accuracy | Are the causes correctly explained? |
+| Actionability | Can users resolve the issue using the guidance? |
+| Organization | Is the information well structured? |
+| Readability | Is the documentation easy to scan? |
+
+---
+
+# Error Documentation
+
+# Common Error Messages
+
+---
+
+## Error 400 — Bad Request
+
+### Description
+
+The server could not process your request because the information sent was invalid or incomplete.
+
+### Possible Causes
+
+- Required fields are missing.
+- Incorrect data format.
+- Invalid request parameters.
+
+### Resolution
+
+- Check that all required fields are completed.
+- Verify the information entered.
+- Refresh the page and try again.
+
+---
+
+## Error 401 — Unauthorized
+
+### Description
+
+Authentication is required before accessing this resource.
+
+### Possible Causes
+
+- You are not logged in.
+- Your session has expired.
+- Invalid login credentials.
+
+### Resolution
+
+- Sign in again.
+- Verify your email and password.
+- Reset your password if necessary.
+
+---
+
+## Error 403 — Forbidden
+
+### Description
+
+You are authenticated but do not have permission to perform this action.
+
+### Possible Causes
+
+- Your account lacks the required permissions.
+- Administrator-only feature.
+- Access restrictions.
+
+### Resolution
+
+- Contact your administrator.
+- Verify your account permissions.
+- Request access if appropriate.
+
+---
+
+## Error 404 — Not Found
+
+### Description
+
+The requested page or resource could not be found.
+
+### Possible Causes
+
+- Incorrect URL.
+- Deleted resource.
+- Broken link.
+
+### Resolution
+
+- Check the web address.
+- Return to the homepage.
+- Search for the content again.
+
+---
+
+## Error 500 — Internal Server Error
+
+### Description
+
+An unexpected error occurred on the server.
+
+### Possible Causes
+
+- Temporary server issue.
+- Software bug.
+- Unexpected system failure.
+
+### Resolution
+
+- Refresh the page after a few minutes.
+- Try again later.
+- Contact support if the problem persists.
+
+---
+
+# Troubleshooting Tips
+
+Before contacting support:
+
+- Refresh the page.
+- Clear your browser cache.
+- Try another browser.
+- Check your internet connection.
+- Sign out and sign back in.
+
+---
+
+# Why This Documentation Is Effective
+
+- Explains technical errors using simple language.
+- Separates causes from solutions.
+- Helps users resolve common issues independently.
+- Reduces unnecessary support requests.
+- Easy to scan during troubleshooting.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Good error documentation should explain not only what went wrong but also how users can recover. Clear, actionable guidance improves user confidence and reduces support workload.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would include links to related help articles, screenshots where appropriate, and support contact information for issues users cannot resolve themselves.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- Error Documentation
+- Troubleshooting Guides
+- User Support Documentation
+- Technical Communication
+- Information Architecture
+
+---
+
+# Final Outcome
+
+The documentation provides clear explanations and practical recovery steps for common application errors, enabling users to troubleshoot issues more effectively and reducing reliance on customer support.
