@@ -1,0 +1,270 @@
+# Project 007 — Comparing Multiple AI Solutions
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Comparative Code Review, AI Model Evaluation, Software Engineering Analysis
+
+---
+
+# Objective
+
+Compare two AI-generated implementations for the same programming task. Evaluate each solution based on correctness, readability, maintainability, performance, and adherence to software engineering best practices. Recommend the stronger implementation with supporting evidence.
+
+---
+
+# Prompt
+
+Write a Python function that counts how many times each word appears in a list of words.
+
+---
+
+# AI Solution A
+
+```python
+def count_words(words):
+    counts = {}
+
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+
+    return counts
+```
+
+---
+
+# AI Solution B
+
+```python
+from collections import Counter
+
+def count_words(words):
+    return Counter(words)
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Correctness | Does the solution produce the correct output? |
+| Readability | Is the code easy to understand? |
+| Maintainability | Is the implementation easy to modify? |
+| Performance | Is the algorithm efficient? |
+| Best Practices | Does it follow Python conventions? |
+
+---
+
+# Solution A Evaluation
+
+## Correctness
+
+**Rating:** 5 / 5
+
+Produces accurate word counts for all valid inputs.
+
+---
+
+## Readability
+
+**Rating:** 5 / 5
+
+The implementation clearly shows how counting is performed, making it easy for beginners to follow.
+
+---
+
+## Maintainability
+
+**Rating:** 5 / 5
+
+The explicit logic makes future modifications straightforward, such as adding filtering or normalization.
+
+---
+
+## Performance
+
+**Rating:** 5 / 5
+
+Runs in linear time.
+
+Time Complexity:
+
+```text
+O(n)
+```
+
+Space Complexity:
+
+```text
+O(k)
+```
+
+where **k** is the number of unique words.
+
+---
+
+## Best Practices
+
+**Rating:** 4 / 5
+
+Follows Python conventions but manually implements functionality already available in the standard library.
+
+---
+
+# Solution B Evaluation
+
+## Correctness
+
+**Rating:** 5 / 5
+
+Returns accurate word frequencies using Python's built-in `Counter`.
+
+---
+
+## Readability
+
+**Rating:** 5 / 5
+
+Very concise and easy for Python developers familiar with the standard library.
+
+---
+
+## Maintainability
+
+**Rating:** 4 / 5
+
+Simple implementation with minimal code. However, developers unfamiliar with `Counter` may need to consult the documentation.
+
+---
+
+## Performance
+
+**Rating:** 5 / 5
+
+Also executes in linear time.
+
+Time Complexity:
+
+```text
+O(n)
+```
+
+Space Complexity:
+
+```text
+O(k)
+```
+
+---
+
+## Best Practices
+
+**Rating:** 5 / 5
+
+Uses a well-tested standard library solution instead of reimplementing existing functionality.
+
+---
+
+# Comparison Summary
+
+| Category | Solution A | Solution B |
+|----------|------------|------------|
+| Correctness | 5 / 5 | 5 / 5 |
+| Readability | 5 / 5 | 5 / 5 |
+| Maintainability | 5 / 5 | 4 / 5 |
+| Performance | 5 / 5 | 5 / 5 |
+| Best Practices | 4 / 5 | 5 / 5 |
+
+---
+
+# Strengths
+
+## Solution A
+
+- Easy to understand.
+- Explicit implementation.
+- Flexible for future customization.
+- Good learning example.
+
+---
+
+## Solution B
+
+- Very concise.
+- Uses Python's standard library.
+- Less code to maintain.
+- Reduces the chance of implementation errors.
+
+---
+
+# Weaknesses
+
+## Solution A
+
+- Reinvents existing functionality.
+- Slightly more code to maintain.
+
+---
+
+## Solution B
+
+- Requires familiarity with the `collections` module.
+- Less educational for beginners learning dictionary operations.
+
+---
+
+# Final Recommendation
+
+## Selected Solution
+
+✅ **Solution B**
+
+### Justification
+
+Both implementations are correct and efficient. However, Solution B is preferred because it uses Python's standard library, resulting in a shorter, cleaner, and more maintainable implementation. Leveraging built-in, well-tested utilities is generally considered a software engineering best practice.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Comparing multiple AI-generated solutions requires evaluating more than correctness. Maintainability, readability, use of language features, and adherence to best practices are all important when determining which implementation is most appropriate.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would also compare the implementations using unit tests, benchmark execution time and memory usage on large datasets, and assess code quality with static analysis tools before making a final recommendation.
+
+---
+
+# Skills Demonstrated
+
+- Comparative Code Review
+- AI Solution Evaluation
+- Performance Analysis
+- Maintainability Assessment
+- Software Engineering Best Practices
+- Technical Decision Making
+
+---
+
+# Final Outcome
+
+The comparative review found that both AI-generated implementations satisfy the functional requirements. Solution B is recommended because it achieves the same result while using a concise, standard-library approach that improves maintainability and aligns with established Python best practices.
