@@ -1,0 +1,174 @@
+# Project 003 — Creating a User Guide
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+User Documentation, Step-by-Step Guides, Technical Communication
+
+---
+
+# Objective
+
+Create a user-friendly guide that explains how to complete a common task within a software application. The guide should use clear language, logical organization, and step-by-step instructions suitable for non-technical users.
+
+---
+
+# Scenario
+
+A new user has just created an account on a cloud storage platform and wants to upload their first file.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Are the instructions easy to understand? |
+| Organization | Are the steps presented logically? |
+| Completeness | Are all important steps included? |
+| Readability | Is the guide suitable for beginners? |
+| User-Friendliness | Can users complete the task without confusion? |
+
+---
+
+# User Guide
+
+# Uploading Your First File
+
+Uploading files allows you to safely store and access your documents from anywhere.
+
+## Before You Begin
+
+Make sure you have:
+
+- An active account
+- A stable internet connection
+- The file you want to upload saved on your device
+
+---
+
+## Step 1: Sign In
+
+Open the application or website and sign in using your email address and password.
+
+---
+
+## Step 2: Go to Your Dashboard
+
+After signing in, you'll be taken to your dashboard where all your files and folders are displayed.
+
+---
+
+## Step 3: Click the Upload Button
+
+Locate the **Upload** button near the top of the page and click it.
+
+---
+
+## Step 4: Select Your File
+
+A file browser window will appear.
+
+Browse your computer and select the file you want to upload.
+
+Click **Open**.
+
+---
+
+## Step 5: Wait for the Upload
+
+A progress indicator will show the upload status.
+
+Do not close the application until the upload is complete.
+
+---
+
+## Step 6: Verify the Upload
+
+Once the upload finishes, the file should appear in your file list.
+
+Open the file to confirm it uploaded successfully.
+
+---
+
+# Troubleshooting
+
+### My upload is taking too long
+
+- Check your internet connection.
+- Try uploading a smaller file.
+- Refresh the page and try again.
+
+---
+
+### My file doesn't appear
+
+- Refresh the dashboard.
+- Make sure the upload completed successfully.
+- Try uploading the file again.
+
+---
+
+### I uploaded the wrong file
+
+Select the file, choose **Delete**, then upload the correct version.
+
+---
+
+# Tips
+
+- Organize files into folders.
+- Use descriptive file names.
+- Regularly back up important documents.
+
+---
+
+# Why This Guide Is Effective
+
+- Uses simple language.
+- Breaks tasks into manageable steps.
+- Includes troubleshooting advice.
+- Anticipates common user questions.
+- Suitable for first-time users.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Effective user guides focus on helping users accomplish tasks rather than explaining how the underlying technology works. Clear instructions and logical organization reduce confusion and improve the overall user experience.
+
+---
+
+## What I'd Do Differently
+
+For a real product, I would include screenshots, icons, and visual callouts to make each step even easier to follow.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- User Documentation
+- Instructional Writing
+- Information Organization
+- User Experience Writing
+- Technical Communication
+
+---
+
+# Final Outcome
+
+The guide provides clear, beginner-friendly instructions that enable users to upload their first file with minimal assistance while also addressing common issues they may encounter.
