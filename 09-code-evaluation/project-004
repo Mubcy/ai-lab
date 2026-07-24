@@ -1,0 +1,204 @@
+# Project 004 — Performance Evaluation
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Performance Analysis, Algorithm Efficiency, Complexity Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated implementation that searches for a target value in a list. Analyze its algorithmic efficiency, time complexity, space complexity, scalability, and opportunities for optimization.
+
+---
+
+# Prompt
+
+Write a Python function that returns `True` if a target number exists in a sorted list and `False` otherwise.
+
+---
+
+# AI-Generated Code
+
+```python
+def contains(numbers, target):
+    for number in numbers:
+        if number == target:
+            return True
+    return False
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Correctness | Does the function return the correct result? |
+| Time Complexity | Is the algorithm efficient? |
+| Space Complexity | Does it use memory efficiently? |
+| Scalability | Can it handle large datasets effectively? |
+| Optimization Opportunities | Are there better approaches? |
+
+---
+
+# Evaluation
+
+## Correctness
+
+**Rating:** 5 / 5
+
+The function correctly determines whether the target exists in the list.
+
+---
+
+## Time Complexity
+
+**Rating:** 2 / 5
+
+The algorithm performs a linear search.
+
+Time Complexity:
+
+```text
+O(n)
+```
+
+This means every element may need to be checked before finding the target.
+
+---
+
+## Space Complexity
+
+**Rating:** 5 / 5
+
+The implementation uses only a constant amount of additional memory.
+
+Space Complexity:
+
+```text
+O(1)
+```
+
+---
+
+## Scalability
+
+**Rating:** 2 / 5
+
+The prompt specifies that the input list is already sorted.
+
+Because of this, using a linear search does not take advantage of the sorted order.
+
+Performance will degrade as the dataset grows.
+
+---
+
+## Optimization Opportunities
+
+Since the data is sorted, a **binary search** would be more appropriate.
+
+Expected complexity:
+
+```text
+Time: O(log n)
+
+Space: O(1)
+```
+
+Binary search repeatedly halves the search space, making it significantly faster for large datasets.
+
+---
+
+# Complexity Comparison
+
+| Algorithm | Time Complexity | Space Complexity |
+|-----------|-----------------|------------------|
+| Linear Search | O(n) | O(1) |
+| Binary Search | O(log n) | O(1) |
+
+---
+
+# Overall Assessment
+
+| Category | Rating |
+|----------|--------|
+| Correctness | 5 / 5 |
+| Time Complexity | 2 / 5 |
+| Space Complexity | 5 / 5 |
+| Scalability | 2 / 5 |
+| Optimization | 5 / 5 |
+
+Overall Score:
+
+**3.8 / 5**
+
+---
+
+# Strengths
+
+- Produces correct results.
+- Easy to understand.
+- Minimal memory usage.
+- Handles all valid inputs correctly.
+
+---
+
+# Weaknesses
+
+- Ignores the fact that the input is sorted.
+- Performance decreases linearly as the dataset grows.
+- Misses an opportunity for a significantly more efficient algorithm.
+
+---
+
+# Recommendations
+
+- Replace the linear search with a binary search implementation.
+- Mention the expected time complexity in the documentation.
+- Add performance benchmarks for large datasets.
+- Include unit tests covering small and large inputs.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Correctness alone is not enough when evaluating code. Choosing an algorithm that matches the characteristics of the input data can dramatically improve performance and scalability.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would benchmark both implementations on datasets of varying sizes, profile execution time, and document why binary search is preferred for sorted collections. I would also consider using Python's built-in `bisect` module where appropriate.
+
+---
+
+# Skills Demonstrated
+
+- Performance Evaluation
+- Algorithm Analysis
+- Time Complexity Analysis
+- Space Complexity Analysis
+- Scalability Assessment
+- Code Review
+- AI Code Evaluation
+
+---
+
+# Final Outcome
+
+The AI-generated implementation is functionally correct but does not make efficient use of the sorted input. Replacing the linear search with a binary search would significantly improve performance while maintaining the same functionality, making the solution more suitable for production use with large datasets.
