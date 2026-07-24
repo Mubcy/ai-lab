@@ -1,0 +1,255 @@
+# Project 008 — Evaluating AI Code Against Requirements
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Requirement Validation, Specification Compliance, AI Code Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated Python implementation against a detailed software specification. Determine whether the solution satisfies every functional requirement, identify missing functionality, and provide a recommendation based on requirement compliance.
+
+---
+
+# Prompt
+
+Write a Python function that accepts a list of student dictionaries.
+
+Each student contains:
+
+- name
+- score
+
+The function should:
+
+1. Return the student with the highest score.
+2. Return `None` if the list is empty.
+3. If multiple students share the highest score, return the first one.
+4. Raise a `ValueError` if any student is missing the `score` field.
+
+---
+
+# AI-Generated Code
+
+```python
+def highest_student(students):
+    if not students:
+        return None
+
+    highest = students[0]
+
+    for student in students:
+        if student["score"] > highest["score"]:
+            highest = student
+
+    return highest
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Requirement Coverage | Are all requirements implemented? |
+| Correctness | Does the code produce correct results? |
+| Error Handling | Are invalid inputs handled properly? |
+| Edge Cases | Are boundary conditions addressed? |
+| Overall Compliance | Does the implementation satisfy the specification? |
+
+---
+
+# Requirement Validation
+
+## Requirement 1
+
+**Return the student with the highest score.**
+
+### Status
+
+✅ Passed
+
+### Observation
+
+The implementation correctly tracks and returns the student with the highest score.
+
+---
+
+## Requirement 2
+
+**Return `None` when the list is empty.**
+
+### Status
+
+✅ Passed
+
+### Observation
+
+The function checks whether the input list is empty before processing.
+
+---
+
+## Requirement 3
+
+**Return the first student when multiple students share the highest score.**
+
+### Status
+
+✅ Passed
+
+### Observation
+
+The comparison uses the `>` operator rather than `>=`, meaning the first highest-scoring student remains selected.
+
+---
+
+## Requirement 4
+
+**Raise a `ValueError` when a student is missing the `score` field.**
+
+### Status
+
+❌ Failed
+
+### Observation
+
+The implementation directly accesses:
+
+```python
+student["score"]
+```
+
+If the key is missing, Python raises a `KeyError` instead of the required `ValueError`.
+
+This does not satisfy the specification.
+
+---
+
+# Test Results
+
+| Test Case | Expected | Actual | Status |
+|-----------|----------|--------|--------|
+| Normal list | Highest student returned | Correct | ✅ Pass |
+| Empty list | None | None | ✅ Pass |
+| Tie for highest score | First student returned | Correct | ✅ Pass |
+| Missing score field | ValueError | KeyError | ❌ Fail |
+
+---
+
+# Compliance Summary
+
+| Requirement | Status |
+|-------------|--------|
+| Highest score | ✅ |
+| Empty list handling | ✅ |
+| Tie handling | ✅ |
+| Missing score validation | ❌ |
+
+---
+
+# Overall Assessment
+
+| Category | Rating |
+|----------|--------|
+| Requirement Coverage | 4 / 5 |
+| Correctness | 5 / 5 |
+| Error Handling | 2 / 5 |
+| Edge Case Handling | 4 / 5 |
+| Overall Compliance | 4 / 5 |
+
+Overall Score:
+
+**3.8 / 5**
+
+---
+
+# Strengths
+
+- Correctly identifies the highest-scoring student.
+- Handles empty input gracefully.
+- Correctly preserves the first student during ties.
+- Uses a simple and efficient algorithm.
+
+---
+
+# Weaknesses
+
+- Does not validate required fields.
+- Raises the wrong exception type.
+- Does not fully comply with the specification.
+
+---
+
+# Recommendations
+
+### Recommendation 1
+
+Validate that every student contains the required `score` field before comparing values.
+
+---
+
+### Recommendation 2
+
+Raise a `ValueError` with a clear error message whenever the required field is missing.
+
+---
+
+### Recommendation 3
+
+Add automated tests covering malformed input and missing fields to ensure compliance with the specification.
+
+---
+
+# Final Recommendation
+
+## Decision
+
+⚠️ **Requires Revision**
+
+### Reason
+
+Although the implementation satisfies most functional requirements, it fails an explicit requirement regarding error handling. Because software specifications must be followed completely, the solution should be revised before acceptance.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Evaluating AI-generated code against a specification requires checking every requirement individually. A solution may appear correct while still failing to meet mandatory behaviors defined by the prompt.
+
+---
+
+## What I'd Do Differently
+
+In a production review, I would create a traceability matrix mapping each requirement to one or more test cases. This helps ensure every specification is verified systematically and reduces the chance of overlooking missing functionality.
+
+---
+
+# Skills Demonstrated
+
+- Requirement Validation
+- Specification Compliance
+- AI Code Evaluation
+- Functional Verification
+- Error Handling Assessment
+- Technical Documentation
+
+---
+
+# Final Outcome
+
+The AI-generated implementation satisfies three of the four functional requirements and correctly handles common scenarios. However, it fails to meet the required error-handling behavior by raising an incorrect exception type. As a result, the solution is not fully compliant with the specification and requires revision before approval.
