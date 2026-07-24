@@ -1,0 +1,246 @@
+# Project 005 — Security Review
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Secure Code Review, Vulnerability Assessment, Security Best Practices
+
+---
+
+# Objective
+
+Review an AI-generated Python function that authenticates a user. Identify security vulnerabilities, assess their severity, explain their potential impact, and recommend secure coding improvements without rewriting the complete implementation.
+
+---
+
+# Prompt
+
+Write a Python function that checks whether a username and password match stored credentials.
+
+---
+
+# AI-Generated Code
+
+```python
+USERNAME = "admin"
+PASSWORD = "password123"
+
+def login(username, password):
+    if username == USERNAME and password == PASSWORD:
+        return True
+    return False
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Vulnerability Detection | Are security issues identified correctly? |
+| Risk Assessment | Is the impact accurately explained? |
+| Best Practices | Are secure coding principles considered? |
+| Recommendations | Are improvements practical and appropriate? |
+| Documentation | Are findings clearly organized? |
+
+---
+
+# Security Review
+
+## Vulnerability 1
+
+### Description
+
+Credentials are hardcoded directly into the source code.
+
+---
+
+### Impact
+
+Anyone with access to the source code can immediately view the credentials.
+
+This increases the risk of unauthorized access if the code is exposed through version control, backups, or accidental disclosure.
+
+---
+
+### Severity
+
+🔴 High
+
+---
+
+## Vulnerability 2
+
+### Description
+
+Passwords are stored in plain text.
+
+---
+
+### Impact
+
+If the application or source code is compromised, attackers can read the password directly without any additional effort.
+
+---
+
+### Severity
+
+🔴 Critical
+
+---
+
+## Vulnerability 3
+
+### Description
+
+No account lockout or rate limiting is implemented.
+
+---
+
+### Impact
+
+Attackers can repeatedly attempt different passwords without restriction, increasing the risk of brute-force attacks.
+
+---
+
+### Severity
+
+🟠 Medium
+
+---
+
+## Vulnerability 4
+
+### Description
+
+The function performs simple string comparison without integrating with a secure authentication system.
+
+---
+
+### Impact
+
+The implementation is not suitable for production use because it lacks support for secure credential storage, user management, and authentication workflows.
+
+---
+
+### Severity
+
+🟡 Medium
+
+---
+
+# Risk Assessment
+
+| Vulnerability | Severity | Likelihood | Impact |
+|--------------|----------|------------|--------|
+| Hardcoded credentials | High | High | High |
+| Plain-text passwords | Critical | High | Critical |
+| No brute-force protection | Medium | Medium | High |
+| Simplistic authentication | Medium | Medium | Medium |
+
+---
+
+# Recommendations
+
+### Recommendation 1
+
+Store credentials securely outside the source code using environment variables or a secure secrets management solution.
+
+---
+
+### Recommendation 2
+
+Never store passwords in plain text. Store password hashes generated using a modern password hashing algorithm.
+
+---
+
+### Recommendation 3
+
+Implement rate limiting or temporary account lockout after repeated failed login attempts.
+
+---
+
+### Recommendation 4
+
+Use an established authentication framework or identity provider rather than implementing authentication logic manually.
+
+---
+
+### Recommendation 5
+
+Log authentication events securely while avoiding the logging of sensitive information such as passwords.
+
+---
+
+# Overall Assessment
+
+| Category | Rating |
+|----------|--------|
+| Correctness | 5 / 5 |
+| Security | 1 / 5 |
+| Maintainability | 4 / 5 |
+| Best Practices | 2 / 5 |
+| Production Readiness | 1 / 5 |
+
+Overall Score:
+
+**2.6 / 5**
+
+---
+
+# Strengths
+
+- Simple implementation.
+- Easy to understand.
+- Correctly compares provided credentials with stored values.
+
+---
+
+# Weaknesses
+
+- Hardcoded credentials.
+- Plain-text password storage.
+- No protection against brute-force attacks.
+- Not suitable for production authentication.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Code that works correctly is not necessarily secure. Security reviews require evaluating how sensitive information is stored, how authentication is implemented, and whether common attack vectors have been addressed.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would integrate a secure authentication system, store credentials using password hashing, protect secrets with environment variables or a secrets manager, enable multi-factor authentication where appropriate, and regularly perform automated security scans alongside manual code reviews.
+
+---
+
+# Skills Demonstrated
+
+- Secure Code Review
+- Vulnerability Assessment
+- Risk Analysis
+- Authentication Security
+- Security Best Practices
+- AI Code Evaluation
+
+---
+
+# Final Outcome
+
+The AI-generated implementation functions correctly but contains multiple critical security weaknesses that make it unsuitable for production use. The review identifies these vulnerabilities, explains their potential impact, and provides practical recommendations that align with secure software engineering practices.
