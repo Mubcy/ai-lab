@@ -1,0 +1,228 @@
+# Project 002 — Bug Identification
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Bug Detection, Logical Analysis, Code Review
+
+---
+
+# Objective
+
+Review an AI-generated Python function intended to determine whether a number is prime. Identify any logical bugs, explain their impact, and recommend appropriate fixes without rewriting the complete implementation.
+
+---
+
+# Prompt
+
+Write a Python function that returns `True` if a number is prime and `False` otherwise.
+
+---
+
+# AI-Generated Code
+
+```python
+def is_prime(n):
+    if n == 2:
+        return True
+
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+
+    return True
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Bug Identification | Are logical bugs correctly identified? |
+| Accuracy | Are findings technically correct? |
+| Impact Analysis | Is the effect of each bug explained? |
+| Recommendations | Are suggested fixes appropriate? |
+| Documentation | Are findings clearly organized? |
+
+---
+
+# Bug Analysis
+
+## Bug 1
+
+### Description
+
+The function incorrectly returns `True` for numbers less than 2.
+
+Example:
+
+```python
+is_prime(1)
+```
+
+returns:
+
+```python
+True
+```
+
+---
+
+### Expected Behavior
+
+Numbers less than 2 are **not** prime.
+
+Expected output:
+
+```python
+False
+```
+
+---
+
+### Impact
+
+The function produces incorrect mathematical results for boundary values such as:
+
+- 0
+- 1
+- Negative integers
+
+---
+
+### Severity
+
+🟠 Medium
+
+---
+
+## Bug 2
+
+### Description
+
+The function checks every number from `2` to `n - 1`.
+
+Although this produces correct results for many inputs, it is inefficient for large numbers.
+
+---
+
+### Impact
+
+Performance degrades significantly as input size increases.
+
+---
+
+### Severity
+
+🟡 Low
+
+---
+
+# Test Cases
+
+| Input | Expected | Actual | Status |
+|------|----------|--------|--------|
+| 2 | True | True | ✅ Pass |
+| 3 | True | True | ✅ Pass |
+| 4 | False | False | ✅ Pass |
+| 17 | True | True | ✅ Pass |
+| 1 | False | True | ❌ Fail |
+| 0 | False | True | ❌ Fail |
+| -5 | False | True | ❌ Fail |
+
+---
+
+# Recommendations
+
+### Recommendation 1
+
+Add input validation for numbers less than 2.
+
+Example:
+
+```python
+if n < 2:
+    return False
+```
+
+---
+
+### Recommendation 2
+
+Improve performance by checking divisibility only up to the square root of the input rather than every number below it.
+
+---
+
+# Overall Assessment
+
+| Category | Rating |
+|----------|--------|
+| Correctness | 3 / 5 |
+| Bug Detection | 5 / 5 |
+| Performance | 3 / 5 |
+| Readability | 5 / 5 |
+| Maintainability | 5 / 5 |
+
+Overall Score:
+
+**4.2 / 5**
+
+---
+
+# Strengths
+
+- Easy to read.
+- Correct for many positive integers.
+- Clear variable names.
+- Simple implementation.
+
+---
+
+# Weaknesses
+
+- Incorrect handling of boundary values.
+- Inefficient algorithm for large inputs.
+- Missing input validation.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Code review involves evaluating more than whether code works for common cases. Boundary values, algorithmic efficiency, and robustness are equally important when assessing software quality.
+
+---
+
+## What I'd Do Differently
+
+In production software, I would recommend adding unit tests for edge cases, validating inputs, documenting assumptions with a docstring, and optimizing the algorithm to improve scalability.
+
+---
+
+# Skills Demonstrated
+
+- Bug Identification
+- Code Review
+- Logical Analysis
+- Edge Case Evaluation
+- Performance Awareness
+- AI Code Evaluation
+
+---
+
+# Final Outcome
+
+The review identified a boundary-value bug and an algorithmic inefficiency in the AI-generated solution. While the implementation works for many positive integers, it fails for inputs less than 2 and performs unnecessary computations for larger values. The proposed recommendations improve both correctness and efficiency without altering the overall design of the function.
