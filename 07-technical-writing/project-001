@@ -1,0 +1,130 @@
+# Project 001 — Simplifying Technical Explanations
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Simplification, Clarity, Documentation
+
+---
+
+# Objective
+
+Rewrite a highly technical explanation so that it is understandable to a non-technical audience without losing its core meaning.
+
+---
+
+# Original Text
+
+> A RESTful API utilizes HTTP methods to perform CRUD operations on server-side resources through stateless client-server communication, where representations are transferred in JSON format.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Accuracy | Is the original meaning preserved? |
+| Clarity | Is the explanation easy to understand? |
+| Simplicity | Are unnecessary technical terms removed or explained? |
+| Readability | Is the writing suitable for beginners? |
+| Organization | Is the information presented logically? |
+
+---
+
+# Problems with the Original
+
+## Issue 1
+
+### Observation
+
+Uses several technical terms without explanation.
+
+### Impact
+
+Readers without a software background may struggle to understand the sentence.
+
+---
+
+## Issue 2
+
+### Observation
+
+Multiple concepts are compressed into one sentence.
+
+### Impact
+
+The explanation is difficult to follow.
+
+---
+
+## Issue 3
+
+### Observation
+
+Assumes prior knowledge of APIs, HTTP, CRUD, and JSON.
+
+### Impact
+
+The intended audience may misunderstand or abandon the documentation.
+
+---
+
+# Rewritten Version
+
+A REST API allows two software applications to communicate over the internet.
+
+For example, when you use a mobile app to check your bank balance or weather forecast, the app sends a request to a server. The server processes the request and sends the information back.
+
+Different types of requests allow the app to create, read, update, or delete information. The data is commonly exchanged using a format called JSON, which is designed to be easy for computers to read and process.
+
+---
+
+# Why This Version Is Better
+
+- Introduces the concept before technical details.
+- Uses a real-world example.
+- Breaks long sentences into shorter paragraphs.
+- Explains unfamiliar terminology.
+- Maintains technical accuracy while improving readability.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Good technical writing is not about using technical vocabulary. It is about communicating technical ideas in a way that matches the reader's level of knowledge.
+
+---
+
+## What I'd Do Differently
+
+In future documentation, I would identify the target audience before deciding how much technical detail to include.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- Documentation
+- Editing
+- Communication
+- Audience Awareness
+- Information Simplification
+
+---
+
+# Final Outcome
+
+The revised explanation preserves the original meaning while making it significantly easier for non-technical readers to understand.
