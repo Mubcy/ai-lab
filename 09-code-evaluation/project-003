@@ -1,0 +1,194 @@
+# Project 003 — Code Quality Assessment
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Code Quality, Maintainability, Readability, Best Practices
+
+---
+
+# Objective
+
+Evaluate an AI-generated implementation of a shopping cart total calculator. Assess the code's quality based on readability, maintainability, modularity, naming conventions, documentation, and adherence to software engineering best practices. Recommend improvements without rewriting the entire solution.
+
+---
+
+# Prompt
+
+Write a Python function that calculates the total cost of all items in a shopping cart. Each item contains a `price` and `quantity`.
+
+---
+
+# AI-Generated Code
+
+```python
+def calc(cart):
+    x = 0
+
+    for i in cart:
+        x += i["price"] * i["quantity"]
+
+    return x
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Readability | Is the code easy to understand? |
+| Maintainability | Can the code be modified easily? |
+| Naming Conventions | Are identifiers descriptive? |
+| Documentation | Is the implementation adequately documented? |
+| Best Practices | Does the code follow Python conventions? |
+| Overall Quality | Overall engineering quality |
+
+---
+
+# Evaluation
+
+## Readability
+
+**Rating:** 3 / 5
+
+The logic is simple, but variable names such as `x` and `i` reduce readability. More descriptive names would improve clarity.
+
+---
+
+## Maintainability
+
+**Rating:** 4 / 5
+
+The implementation is short and easy to update. However, the absence of input validation may make future maintenance more difficult if the input structure changes.
+
+---
+
+## Naming Conventions
+
+**Rating:** 2 / 5
+
+The function name `calc` is too generic.
+
+Variables such as:
+
+- `x`
+- `i`
+
+do not communicate their purpose.
+
+More descriptive names would improve code clarity.
+
+---
+
+## Documentation
+
+**Rating:** 2 / 5
+
+The function lacks:
+
+- A docstring
+- Parameter descriptions
+- Return value description
+- Usage examples
+
+---
+
+## Best Practices
+
+**Rating:** 4 / 5
+
+The implementation follows a straightforward approach but could be improved by:
+
+- Adding type hints.
+- Validating required dictionary keys.
+- Handling invalid or missing values gracefully.
+
+---
+
+# Overall Assessment
+
+| Category | Rating |
+|----------|--------|
+| Readability | 3 / 5 |
+| Maintainability | 4 / 5 |
+| Naming Conventions | 2 / 5 |
+| Documentation | 2 / 5 |
+| Best Practices | 4 / 5 |
+
+Overall Score:
+
+**3.0 / 5**
+
+---
+
+# Strengths
+
+- Correct calculation logic.
+- Compact implementation.
+- Easy to follow for small examples.
+- Minimal complexity.
+
+---
+
+# Areas for Improvement
+
+- Use descriptive function and variable names.
+- Add a docstring explaining the function.
+- Include type hints.
+- Validate input data before performing calculations.
+- Consider raising meaningful exceptions for malformed input.
+
+---
+
+# Example Improvements
+
+Without changing the overall design, the following enhancements would improve quality:
+
+- Rename `calc` to `calculate_cart_total`.
+- Rename `x` to `total_cost`.
+- Rename `i` to `item`.
+- Add a function docstring.
+- Include type annotations.
+
+---
+
+# Reflection
+
+## What I Learned
+
+High-quality code is not defined solely by correct output. Readability, naming, documentation, and maintainability significantly influence how easily other developers can understand and extend the implementation.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would recommend adopting a style guide such as PEP 8, adding automated linting and formatting tools, writing unit tests, and including comprehensive documentation to improve long-term maintainability.
+
+---
+
+# Skills Demonstrated
+
+- Code Review
+- Code Quality Assessment
+- Maintainability Analysis
+- Readability Evaluation
+- Documentation Review
+- Software Engineering Best Practices
+
+---
+
+# Final Outcome
+
+The AI-generated implementation correctly calculates the shopping cart total but falls short in several areas related to code quality. Improving naming conventions, documentation, and input validation would significantly enhance maintainability and readability while preserving the existing functionality.
