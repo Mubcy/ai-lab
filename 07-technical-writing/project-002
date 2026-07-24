@@ -1,0 +1,216 @@
+# Project 002 — Writing API Documentation
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+API Documentation, Developer Documentation, Technical Communication
+
+---
+
+# Objective
+
+Create clear and structured documentation for an API endpoint. The documentation should explain what the endpoint does, how to use it, the required parameters, example requests and responses, and possible error messages.
+
+---
+
+# API Information
+
+### Endpoint
+
+```
+POST /api/users
+```
+
+### Description
+
+Creates a new user account.
+
+### Request Body
+
+| Field | Type | Required |
+|-------|------|----------|
+| name | string | Yes |
+| email | string | Yes |
+| password | string | Yes |
+
+### Success Response
+
+```json
+{
+  "id": 15,
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
+
+### Error Response
+
+```json
+{
+  "error": "Email already exists."
+}
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Accuracy | Is the documentation technically correct? |
+| Completeness | Are all important details included? |
+| Clarity | Is it easy to understand? |
+| Organization | Is the information logically structured? |
+| Readability | Can developers quickly find what they need? |
+
+---
+
+# Documentation
+
+# Create User
+
+Creates a new user account.
+
+## Endpoint
+
+```http
+POST /api/users
+```
+
+---
+
+## Description
+
+This endpoint creates a new user account using the information provided in the request body.
+
+If the request is successful, the API returns the newly created user's information.
+
+---
+
+## Request Body
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| name | string | ✅ | Full name of the user |
+| email | string | ✅ | Unique email address |
+| password | string | ✅ | User password |
+
+---
+
+## Example Request
+
+```http
+POST /api/users
+Content-Type: application/json
+```
+
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "StrongPassword123"
+}
+```
+
+---
+
+## Success Response
+
+**Status Code**
+
+```http
+201 Created
+```
+
+```json
+{
+  "id": 15,
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
+
+---
+
+## Error Response
+
+**Status Code**
+
+```http
+409 Conflict
+```
+
+```json
+{
+  "error": "Email already exists."
+}
+```
+
+---
+
+## Possible Errors
+
+| Status Code | Description |
+|-------------|-------------|
+| 400 | Invalid request body |
+| 409 | Email already exists |
+| 500 | Internal server error |
+
+---
+
+## Notes
+
+- The email address must be unique.
+- All required fields must be provided.
+- Passwords should meet the application's security requirements.
+
+---
+
+# Why This Documentation Is Better
+
+- Clearly explains the endpoint's purpose.
+- Includes required request fields.
+- Provides complete request and response examples.
+- Documents common HTTP status codes.
+- Easy for developers to scan and use.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Good API documentation should answer the most common developer questions before they are asked. Clear examples, well-defined parameters, and documented error responses make an API easier to integrate and reduce implementation mistakes.
+
+---
+
+## What I'd Do Differently
+
+For larger APIs, I would include authentication requirements, rate limits, versioning information, and additional examples for different use cases.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- API Documentation
+- Developer Documentation
+- Information Architecture
+- Technical Communication
+
+---
+
+# Final Outcome
+
+The documentation transforms a basic API specification into a developer-friendly reference that is easier to understand, integrate, and maintain.
