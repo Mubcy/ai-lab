@@ -1,0 +1,173 @@
+# Project 001 — Code Correctness Review
+
+## Date
+
+2026-07-24
+
+## Category
+
+Code Evaluation
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Code Review, Correctness Verification
+
+---
+
+# Objective
+
+Review an AI-generated function that calculates the average of a list of numbers. Determine whether the implementation is correct, identify potential issues, and suggest improvements where appropriate.
+
+---
+
+# Prompt
+
+Write a Python function that returns the average of a list of numbers.
+
+---
+
+# AI-Generated Code
+
+```python
+def average(numbers):
+    total = 0
+
+    for number in numbers:
+        total += number
+
+    return total / len(numbers)
+```
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Correctness | Does the function produce the correct output? |
+| Edge Cases | Does it handle unusual inputs? |
+| Readability | Is the code easy to understand? |
+| Maintainability | Is the implementation easy to modify? |
+| Best Practices | Does it follow Python conventions? |
+
+---
+
+# Evaluation
+
+## Correctness
+
+✅ Correct
+
+The function correctly computes the arithmetic mean for a non-empty list of numeric values.
+
+---
+
+## Edge Cases
+
+Issue identified:
+
+Calling:
+
+```python
+average([])
+```
+
+raises a **ZeroDivisionError** because the list length is zero.
+
+---
+
+## Readability
+
+Rating: **5 / 5**
+
+The variable names are descriptive and the logic is straightforward.
+
+---
+
+## Maintainability
+
+Rating: **5 / 5**
+
+The function is concise and easy to modify.
+
+---
+
+## Best Practices
+
+Minor improvement:
+
+Validate the input before dividing.
+
+Example:
+
+```python
+if not numbers:
+    raise ValueError("numbers cannot be empty")
+```
+
+---
+
+# Overall Assessment
+
+| Category | Rating |
+|----------|--------|
+| Correctness | 5 / 5 |
+| Edge Cases | 3 / 5 |
+| Readability | 5 / 5 |
+| Maintainability | 5 / 5 |
+| Best Practices | 4 / 5 |
+
+Overall Score:
+
+**4.4 / 5**
+
+---
+
+# Strengths
+
+- Simple implementation.
+- Correct arithmetic calculation.
+- Easy to understand.
+- Good variable naming.
+
+---
+
+# Areas for Improvement
+
+- Handle empty lists safely.
+- Consider validating input types.
+- Provide a descriptive docstring.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Correct code is not always complete. Evaluating software also requires considering invalid inputs, boundary conditions, and defensive programming practices.
+
+---
+
+## What I'd Do Differently
+
+In production code, I would add input validation, documentation, type hints, and unit tests to improve robustness and maintainability.
+
+---
+
+# Skills Demonstrated
+
+- Code Review
+- Correctness Evaluation
+- Edge Case Analysis
+- Python
+- AI Code Assessment
+
+---
+
+# Final Outcome
+
+The implementation correctly calculates the average of a list of numbers under normal conditions. However, it lacks input validation for empty lists and would benefit from additional safeguards to improve reliability in production environments.
