@@ -1,0 +1,171 @@
+# Project 008 — Writing Frequently Asked Questions (FAQ)
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Knowledge Base, FAQ Documentation, User Support
+
+---
+
+# Objective
+
+Create a Frequently Asked Questions (FAQ) document that answers common user questions about a software application. The document should provide concise, accurate, and easy-to-find answers that help users solve common problems independently.
+
+---
+
+# Scenario
+
+You are writing an FAQ for **TaskFlow**, a project management application used by teams to manage tasks, collaborate, and track project progress.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Are the answers easy to understand? |
+| Completeness | Are common user questions addressed? |
+| Organization | Is the information easy to navigate? |
+| Readability | Can users quickly find answers? |
+| User Value | Does the FAQ reduce the need for support? |
+
+---
+
+# Frequently Asked Questions
+
+## 1. How do I create a new project?
+
+Click **New Project** on your dashboard, enter the project name and description, then click **Create**.
+
+---
+
+## 2. Can I invite other team members?
+
+Yes.
+
+Open your project, select **Members**, click **Invite Member**, and enter the person's email address.
+
+---
+
+## 3. How do I reset my password?
+
+On the sign-in page, click **Forgot Password**, enter your registered email address, and follow the instructions sent to your inbox.
+
+---
+
+## 4. Can I change my email address?
+
+Yes.
+
+Go to **Account Settings**, update your email address, and verify the new email before the change takes effect.
+
+---
+
+## 5. Why can't I upload attachments?
+
+Possible reasons include:
+
+- Unsupported file type
+- File exceeds the maximum size limit
+- Temporary network issue
+
+Try reducing the file size or checking your internet connection before trying again.
+
+---
+
+## 6. Can I recover a deleted task?
+
+Yes.
+
+Deleted tasks remain in the **Recycle Bin** for 30 days before being permanently removed.
+
+---
+
+## 7. How do I enable notifications?
+
+Navigate to **Settings → Notifications**, then enable email, desktop, or mobile notifications according to your preferences.
+
+---
+
+## 8. Does TaskFlow work on mobile devices?
+
+Yes.
+
+TaskFlow is available on Android, iOS, and through supported mobile web browsers.
+
+---
+
+## 9. Is my data backed up?
+
+Yes.
+
+Your data is backed up automatically to help prevent accidental loss.
+
+---
+
+## 10. How do I contact support?
+
+Visit the **Help Center** within the application or submit a support request through the **Contact Support** page.
+
+---
+
+# Best Practices
+
+Before contacting support:
+
+- Read the FAQ.
+- Search the Help Center.
+- Verify your internet connection.
+- Ensure you're using the latest version of the application.
+
+---
+
+# Why This FAQ Is Effective
+
+- Answers the most common user questions.
+- Uses clear and concise language.
+- Organizes information logically.
+- Helps users solve problems independently.
+- Reduces unnecessary support requests.
+
+---
+
+# Reflection
+
+## What I Learned
+
+An effective FAQ anticipates the questions users are most likely to ask and provides concise, actionable answers. Well-organized FAQs improve user satisfaction by making information easy to locate.
+
+---
+
+## What I'd Do Differently
+
+For a production knowledge base, I would categorize questions by topic (Account, Projects, Billing, Security, etc.), include links to detailed documentation, and regularly update the FAQ based on customer support trends.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- FAQ Documentation
+- Knowledge Base Development
+- User Support Documentation
+- Information Architecture
+- Technical Communication
+
+---
+
+# Final Outcome
+
+The FAQ provides users with quick, organized answers to common questions, helping them resolve issues efficiently while reducing the workload on customer support teams.
