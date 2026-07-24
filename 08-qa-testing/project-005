@@ -1,0 +1,137 @@
+# Project 005 — Regression Testing
+
+## Date
+
+2026-07-24
+
+## Category
+
+QA Testing
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Regression Testing, Software Validation, Quality Assurance
+
+---
+
+# Objective
+
+Perform regression testing after the release of a new application version. Verify that recently implemented changes have not introduced defects into previously working features.
+
+---
+
+# Scenario
+
+Application Version **2.3.0** introduces the following updates:
+
+- Improved login performance
+- Added Remember Me functionality
+- Updated dashboard UI
+- Fixed notification loading bug
+
+Regression testing is required to ensure existing features continue working correctly.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Coverage | Are existing features adequately tested? |
+| Accuracy | Are expected and actual results documented correctly? |
+| Organization | Is the regression report easy to follow? |
+| Risk Assessment | Are critical features prioritized? |
+| Documentation | Are testing outcomes clearly summarized? |
+
+---
+
+# Regression Test Suite
+
+| Test ID | Feature | Expected Result | Actual Result | Status |
+|----------|---------|-----------------|---------------|--------|
+| RG-001 | User Login | User logs in successfully. | Login successful. | ✅ Pass |
+| RG-002 | Remember Me | User remains signed in after restarting browser. | Feature works correctly. | ✅ Pass |
+| RG-003 | Password Reset | Password reset email is sent successfully. | Email received successfully. | ✅ Pass |
+| RG-004 | Dashboard Loading | Dashboard loads without errors. | Dashboard loads correctly. | ✅ Pass |
+| RG-005 | Create New Task | Task is created successfully. | Task created successfully. | ✅ Pass |
+| RG-006 | Edit Task | Task updates are saved correctly. | Task updated successfully. | ✅ Pass |
+| RG-007 | Delete Task | Selected task is removed. | Task deleted successfully. | ✅ Pass |
+| RG-008 | Notifications | Notifications load correctly. | Notifications displayed correctly. | ✅ Pass |
+| RG-009 | User Logout | User session ends successfully. | Logout completed successfully. | ✅ Pass |
+
+---
+
+# Test Summary
+
+| Metric | Result |
+|---------|--------|
+| Total Regression Tests | 9 |
+| Passed | 9 |
+| Failed | 0 |
+| Pass Rate | 100% |
+
+---
+
+# Risk Assessment
+
+| Area | Risk Level | Result |
+|------|------------|--------|
+| Authentication | High | Passed |
+| Dashboard | High | Passed |
+| Task Management | High | Passed |
+| Notifications | Medium | Passed |
+| User Session | High | Passed |
+
+---
+
+# Observations
+
+- Previously implemented features continue to function correctly.
+- No regressions were detected after the latest release.
+- The newly added **Remember Me** functionality does not interfere with existing authentication workflows.
+- Dashboard performance improvements did not introduce visual or functional defects.
+
+---
+
+# Why This Regression Testing Is Effective
+
+- Prioritizes business-critical functionality.
+- Verifies existing features after software updates.
+- Documents expected and actual behavior.
+- Helps prevent production defects.
+- Provides confidence before deployment.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Regression testing is essential whenever software changes are introduced. Even small updates can unintentionally affect existing functionality, making systematic regression testing a key part of maintaining software quality.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would automate repetitive regression tests using tools such as Selenium, Playwright, or Cypress. Automated regression testing reduces manual effort, improves consistency, and supports faster release cycles within CI/CD pipelines.
+
+---
+
+# Skills Demonstrated
+
+- QA Testing
+- Regression Testing
+- Software Validation
+- Requirement Verification
+- Risk Assessment
+- Test Documentation
+
+---
+
+# Final Outcome
+
+The regression test suite confirms that Version 2.3.0 maintains the stability of existing functionality while successfully introducing new features and performance improvements. No regressions were identified, indicating the application is suitable for release based on the executed test cases.
