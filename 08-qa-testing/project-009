@@ -1,0 +1,125 @@
+# Project 008 — AI Output Validation
+
+## Date
+
+2026-07-24
+
+## Category
+
+QA Testing
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+AI Output Validation, Quality Assurance, Response Evaluation
+
+---
+
+# Objective
+
+Evaluate an AI-generated response against predefined quality criteria to determine whether it meets user requirements. Assess instruction following, factual accuracy, completeness, clarity, safety, and overall usefulness before making a release recommendation.
+
+---
+
+# Scenario
+
+A user asks an AI assistant:
+
+> Explain what phishing is and how I can avoid becoming a victim.
+
+---
+
+# AI Response
+
+> Phishing is when hackers send fake emails pretending to be trusted companies so they can steal your passwords or bank information. You should avoid clicking suspicious links, verify the sender's email address, enable two-factor authentication, and never share sensitive information through email. If you're unsure whether a message is legitimate, contact the company directly using its official website or phone number instead of replying to the message.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Instruction Following | Does the response answer the user's question? |
+| Factual Accuracy | Is the information correct? |
+| Completeness | Does it cover the important points? |
+| Clarity | Is the explanation easy to understand? |
+| Safety | Could the advice cause harm? |
+| Overall Quality | Overall usefulness and reliability |
+
+---
+
+# Evaluation
+
+| Category | Rating (/5) | Comments |
+|----------|-------------|----------|
+| Instruction Following | 5 | Fully explains phishing and prevention methods. |
+| Factual Accuracy | 5 | Information aligns with accepted cybersecurity guidance. |
+| Completeness | 4 | Covers the main prevention techniques but could mention checking website URLs and reporting phishing attempts. |
+| Clarity | 5 | Simple language suitable for a broad audience. |
+| Safety | 5 | Encourages safe online practices without introducing risks. |
+| Overall Quality | 5 | Accurate, practical, and easy to follow. |
+
+---
+
+# Strengths
+
+- Answers every part of the user's question.
+- Uses clear, beginner-friendly language.
+- Provides practical and actionable advice.
+- Includes multiple prevention strategies.
+- Encourages users to verify suspicious communications independently.
+
+---
+
+# Areas for Improvement
+
+- Mention that phishing can occur through text messages (smishing) and phone calls (vishing), not just email.
+- Recommend reporting phishing attempts to the relevant organization or email provider.
+- Suggest keeping software and browsers updated to reduce security risks.
+
+---
+
+# Final Recommendation
+
+## Decision
+
+✅ **Accept**
+
+### Reason
+
+The AI response is factually accurate, safe, well-organized, and provides practical advice. Minor additions could improve completeness, but they are not necessary for the response to satisfy the user's request.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Evaluating AI responses requires more than checking for factual accuracy. A high-quality response should also be complete, easy to understand, safe, and directly address the user's intent. Structured evaluation criteria make assessments more consistent and objective.
+
+---
+
+## What I'd Do Differently
+
+For production AI systems, I would validate responses across diverse prompts, edge cases, and user personas. I would also compare outputs from multiple AI models to assess consistency, identify potential hallucinations, and ensure responses remain reliable under different scenarios.
+
+---
+
+# Skills Demonstrated
+
+- AI Output Validation
+- Quality Assurance
+- Response Evaluation
+- Instruction Following Assessment
+- Factual Verification
+- Safety Evaluation
+- Technical Documentation
+
+---
+
+# Final Outcome
+
+The evaluation confirms that the AI response successfully answers the user's question while maintaining factual accuracy, clarity, and safety. The structured assessment identifies minor opportunities for improvement without affecting the overall quality, supporting a recommendation to accept the response.
