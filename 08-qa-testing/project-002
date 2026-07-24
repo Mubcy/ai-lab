@@ -1,0 +1,133 @@
+# Project 002 — Functional Testing
+
+## Date
+
+2026-07-24
+
+## Category
+
+QA Testing
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Functional Testing, Test Execution, Requirement Validation
+
+---
+
+# Objective
+
+Perform functional testing on a user registration feature by verifying that the application behaves according to its requirements. Record the expected and actual results for each test scenario.
+
+---
+
+# Feature Under Test
+
+User Registration
+
+The application allows new users to create an account using:
+
+- Full Name
+- Email Address
+- Password
+- Confirm Password
+
+### Functional Requirements
+
+- All fields are required.
+- Email addresses must be unique.
+- Password must contain at least 8 characters.
+- Password and Confirm Password must match.
+- Successful registration redirects the user to the dashboard.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Requirement Coverage | Are all functional requirements tested? |
+| Accuracy | Are expected and actual results documented correctly? |
+| Organization | Are test results easy to understand? |
+| Completeness | Are both successful and failed scenarios included? |
+| Documentation | Is the test report professionally structured? |
+
+---
+
+# Functional Test Report
+
+| Test ID | Scenario | Expected Result | Actual Result | Status |
+|----------|----------|-----------------|---------------|--------|
+| FT-001 | Register with valid information | User account is created and redirected to dashboard. | Account created successfully and redirected to dashboard. | ✅ Pass |
+| FT-002 | Leave Full Name empty | Validation message displayed. | Validation message displayed correctly. | ✅ Pass |
+| FT-003 | Leave Email empty | Validation message displayed. | Validation message displayed correctly. | ✅ Pass |
+| FT-004 | Leave Password empty | Validation message displayed. | Validation message displayed correctly. | ✅ Pass |
+| FT-005 | Password shorter than 8 characters | Registration blocked with password validation message. | Validation message displayed correctly. | ✅ Pass |
+| FT-006 | Passwords do not match | Registration prevented with mismatch error. | Error displayed correctly. | ✅ Pass |
+| FT-007 | Email already exists | Registration prevented with duplicate email message. | Duplicate email detected successfully. | ✅ Pass |
+| FT-008 | Successful registration | Dashboard loads successfully after account creation. | Dashboard displayed correctly. | ✅ Pass |
+
+---
+
+# Test Summary
+
+| Metric | Result |
+|---------|--------|
+| Total Test Cases | 8 |
+| Passed | 8 |
+| Failed | 0 |
+| Pass Rate | 100% |
+
+---
+
+# Observations
+
+- All required fields were validated correctly.
+- Password validation met the specified requirements.
+- Duplicate email detection worked as expected.
+- Successful registration redirected users to the dashboard without errors.
+
+No functional defects were identified during testing.
+
+---
+
+# Why This Testing Is Effective
+
+- Covers every functional requirement.
+- Includes both positive and negative test scenarios.
+- Documents expected versus actual behavior.
+- Provides a clear summary of testing outcomes.
+- Makes verification easy for future regression testing.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Functional testing verifies whether a feature behaves according to its requirements. Comparing expected and actual results provides a reliable way to identify defects before software is released.
+
+---
+
+## What I'd Do Differently
+
+In a real-world project, I would also perform cross-browser testing, mobile responsiveness testing, accessibility testing, and test integrations with backend services.
+
+---
+
+# Skills Demonstrated
+
+- Functional Testing
+- Requirement Validation
+- QA Documentation
+- Test Execution
+- Software Verification
+
+---
+
+# Final Outcome
+
+The functional testing confirms that the user registration feature satisfies all specified requirements. All test cases passed successfully, indicating the feature is functioning as expected under the tested scenarios.
