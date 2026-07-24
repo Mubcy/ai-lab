@@ -1,0 +1,247 @@
+# Project 006 — Writing Product Documentation
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Product Documentation, Feature Documentation, User Education
+
+---
+
+# Objective
+
+Create comprehensive documentation for a software feature. The documentation should explain what the feature is, why users should use it, how to configure it, best practices, limitations, and frequently asked questions.
+
+---
+
+# Scenario
+
+A project management platform has introduced a new feature called **Task Automation**, allowing users to automatically perform actions based on predefined triggers.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Is the documentation easy to understand? |
+| Completeness | Does it cover all important information? |
+| Organization | Is the content logically structured? |
+| Readability | Is it easy to scan and navigate? |
+| User Value | Does it help users successfully use the feature? |
+
+---
+
+# Product Documentation
+
+# Task Automation
+
+Task Automation helps you reduce repetitive work by automatically performing actions whenever specific events occur.
+
+Instead of manually updating tasks, assigning team members, or changing statuses, you can create automation rules that perform these actions automatically.
+
+---
+
+# Benefits
+
+Using Task Automation can help you:
+
+- Save time on repetitive tasks.
+- Improve workflow consistency.
+- Reduce manual errors.
+- Increase team productivity.
+- Standardize project processes.
+
+---
+
+# How It Works
+
+Every automation consists of three parts:
+
+| Component | Description |
+|----------|-------------|
+| Trigger | The event that starts the automation. |
+| Condition | Optional rules that determine whether the automation should run. |
+| Action | The task performed automatically. |
+
+Example:
+
+**Trigger**
+
+Task is marked as "Completed."
+
+↓
+
+**Condition**
+
+Task belongs to the Marketing project.
+
+↓
+
+**Action**
+
+Notify the project manager.
+
+---
+
+# Creating an Automation
+
+## Step 1
+
+Navigate to **Settings → Automations**.
+
+---
+
+## Step 2
+
+Select **Create Automation**.
+
+---
+
+## Step 3
+
+Choose a trigger.
+
+Examples:
+
+- Task Created
+- Task Assigned
+- Due Date Reached
+- Status Changed
+
+---
+
+## Step 4
+
+(Optional)
+
+Add one or more conditions.
+
+Example:
+
+- Priority is High
+- Assigned Team is Engineering
+
+---
+
+## Step 5
+
+Choose an action.
+
+Examples:
+
+- Assign user
+- Change status
+- Send notification
+- Create checklist
+- Add comment
+
+---
+
+## Step 6
+
+Save and enable the automation.
+
+Your workflow will now run automatically whenever the trigger conditions are met.
+
+---
+
+# Best Practices
+
+- Start with simple automation rules.
+- Use descriptive names for each automation.
+- Regularly review inactive workflows.
+- Avoid creating multiple automations that perform the same task.
+- Test automation rules before enabling them across production projects.
+
+---
+
+# Limitations
+
+- Automations cannot modify deleted tasks.
+- Maximum of 100 active automations per workspace.
+- Some actions require administrator permissions.
+- Automations execute only after the triggering event is completed.
+
+---
+
+# Frequently Asked Questions
+
+## Can I edit an automation later?
+
+Yes.
+
+You can modify triggers, conditions, and actions at any time.
+
+---
+
+## Can I temporarily disable an automation?
+
+Yes.
+
+Use the toggle switch beside each automation to disable or enable it.
+
+---
+
+## Who can create automations?
+
+Workspace administrators and users with Automation permissions.
+
+---
+
+## Can one trigger start multiple automations?
+
+Yes.
+
+Multiple automation rules can use the same trigger if their conditions are different.
+
+---
+
+# Why This Documentation Is Effective
+
+- Explains the feature before describing how to use it.
+- Uses a logical progression from overview to setup.
+- Includes practical examples.
+- Covers common user questions.
+- Documents feature limitations and best practices.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Product documentation should do more than describe features—it should help users understand why a feature exists, how to use it effectively, and what limitations they should be aware of.
+
+---
+
+## What I'd Do Differently
+
+For a production environment, I would include screenshots, diagrams illustrating automation workflows, links to related documentation, and troubleshooting guidance for common automation issues.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- Product Documentation
+- Feature Documentation
+- User Education
+- Information Architecture
+- Technical Communication
+
+---
+
+# Final Outcome
+
+The documentation provides a complete overview of the Task Automation feature, enabling users to understand its purpose, configure automation rules, follow best practices, and troubleshoot common questions without requiring additional support.
