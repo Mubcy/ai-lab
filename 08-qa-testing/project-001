@@ -1,0 +1,106 @@
+# Project 001 — Writing Test Cases
+
+## Date
+
+2026-07-24
+
+## Category
+
+QA Testing
+
+## Difficulty
+
+Beginner
+
+## Focus
+
+Test Case Design, Functional Testing
+
+---
+
+# Objective
+
+Design structured test cases for a login feature. Each test case should clearly define the scenario, required steps, expected outcome, and execution result.
+
+---
+
+# Feature Under Test
+
+User Login
+
+The application allows registered users to sign in using their email address and password.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Coverage | Do the test cases cover common scenarios? |
+| Clarity | Are the steps easy to follow? |
+| Completeness | Are expected results clearly defined? |
+| Organization | Is the documentation well structured? |
+| Reusability | Can another tester execute the tests? |
+
+---
+
+# Test Cases
+
+| Test ID | Test Scenario | Steps | Expected Result | Status |
+|----------|---------------|-------|-----------------|--------|
+| TC-001 | Valid login | Enter a registered email and correct password, then click **Login**. | User is successfully logged in and redirected to the dashboard. | Pass |
+| TC-002 | Invalid password | Enter a registered email and an incorrect password. | An error message is displayed and login is denied. | Pass |
+| TC-003 | Invalid email | Enter an email address that is not registered. | User is informed that the account does not exist. | Pass |
+| TC-004 | Empty email | Leave the email field blank and submit. | Validation message prompts the user to enter an email. | Pass |
+| TC-005 | Empty password | Leave the password field blank and submit. | Validation message prompts the user to enter a password. | Pass |
+| TC-006 | Both fields empty | Submit the form without entering any information. | Validation messages appear for both required fields. | Pass |
+
+---
+
+# Test Coverage
+
+The test cases verify:
+
+- Successful authentication.
+- Invalid credentials.
+- Required field validation.
+- Basic input handling.
+
+---
+
+# Why These Test Cases Are Effective
+
+- Cover both positive and negative scenarios.
+- Clearly define expected outcomes.
+- Easy for another tester to execute.
+- Provide repeatable testing steps.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Well-written test cases reduce ambiguity during testing and ensure that multiple testers can validate the same functionality consistently.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would expand the test suite to include boundary values, security checks, accessibility testing, and browser compatibility testing.
+
+---
+
+# Skills Demonstrated
+
+- QA Testing
+- Test Case Design
+- Functional Testing
+- Documentation
+- Requirement Validation
+
+---
+
+# Final Outcome
+
+The test cases provide structured coverage of the login feature, ensuring that both successful and unsuccessful authentication scenarios are validated consistently.
