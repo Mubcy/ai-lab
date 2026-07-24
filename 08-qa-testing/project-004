@@ -1,0 +1,184 @@
+# Project 003 — Bug Reporting
+
+## Date
+
+2026-07-24
+
+## Category
+
+QA Testing
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Bug Reporting, Defect Documentation, Software Quality Assurance
+
+---
+
+# Objective
+
+Identify and document software defects using a standardized bug report format. Each report should include the environment, reproduction steps, expected behavior, actual behavior, severity, priority, and supporting observations.
+
+---
+
+# Feature Under Test
+
+User Login
+
+---
+
+# Test Environment
+
+| Item | Value |
+|------|-------|
+| Application Version | v2.1.0 |
+| Operating System | Windows 11 |
+| Browser | Google Chrome 139 |
+| Test Date | 2026-07-24 |
+
+---
+
+# Bug Report
+
+## Bug ID
+
+BUG-001
+
+---
+
+## Title
+
+User remains logged in after clicking **Logout** and using the browser Back button.
+
+---
+
+## Module
+
+Authentication
+
+---
+
+## Severity
+
+🔴 High
+
+---
+
+## Priority
+
+High
+
+---
+
+## Environment
+
+- Windows 11
+- Google Chrome 139
+- Application Version 2.1.0
+
+---
+
+## Preconditions
+
+- User has successfully logged into the application.
+
+---
+
+## Steps to Reproduce
+
+1. Log into the application.
+2. Navigate to the dashboard.
+3. Click **Logout**.
+4. After reaching the login page, press the browser **Back** button.
+
+---
+
+## Expected Result
+
+The user should remain logged out and be redirected to the login page if attempting to access protected pages.
+
+---
+
+## Actual Result
+
+The dashboard becomes accessible again through browser history without requiring the user to authenticate.
+
+---
+
+## Impact
+
+Unauthorized users with access to the same browser session may be able to view protected information.
+
+---
+
+## Frequency
+
+Always
+
+---
+
+## Status
+
+Open
+
+---
+
+## Suggested Investigation
+
+Verify that authenticated pages are not cached after logout and ensure server-side session validation occurs whenever protected pages are accessed.
+
+---
+
+# Test Summary
+
+| Attribute | Value |
+|-----------|-------|
+| Severity | High |
+| Priority | High |
+| Reproducibility | 100% |
+| Status | Open |
+
+---
+
+# Why This Bug Report Is Effective
+
+- Uses a descriptive title.
+- Provides reproducible steps.
+- Clearly distinguishes expected and actual behavior.
+- Explains business impact.
+- Includes environment details.
+- Assists developers in reproducing the issue.
+
+---
+
+# Reflection
+
+## What I Learned
+
+A good bug report focuses on facts rather than assumptions. Clear reproduction steps and accurate descriptions help developers identify and resolve defects more efficiently.
+
+---
+
+## What I'd Do Differently
+
+In a production environment, I would attach screenshots, screen recordings, browser console logs, network logs, and issue references to provide additional context for developers.
+
+---
+
+# Skills Demonstrated
+
+- QA Testing
+- Bug Reporting
+- Defect Documentation
+- Functional Testing
+- Technical Communication
+- Software Quality Assurance
+
+---
+
+# Final Outcome
+
+The bug report documents a reproducible authentication issue using an industry-standard format. It provides developers with sufficient information to reproduce, investigate, and prioritize the defect while clearly communicating its impact on application security.
