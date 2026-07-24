@@ -1,0 +1,160 @@
+# Project 005 — Writing Release Notes
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Intermediate
+
+## Focus
+
+Release Documentation, Product Communication, Change Logs
+
+---
+
+# Objective
+
+Write professional release notes for a new software version. The release notes should clearly communicate new features, improvements, bug fixes, breaking changes, and known issues.
+
+---
+
+# Scenario
+
+A project management application is releasing **Version 2.5.0** with several new features and improvements.
+
+### Changes Included
+
+- Added Dark Mode
+- Added Two-Factor Authentication (2FA)
+- Improved dashboard loading speed
+- Fixed file upload failures
+- Fixed notification duplication bug
+- Improved mobile responsiveness
+- Deprecated legacy calendar integration
+- Some users may experience delayed email notifications
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Are the updates easy to understand? |
+| Organization | Are the changes grouped logically? |
+| Completeness | Are all important updates included? |
+| Professionalism | Does the document follow industry standards? |
+| Readability | Can users quickly identify relevant changes? |
+
+---
+
+# Release Notes
+
+# Version 2.5.0
+
+**Release Date:** July 24, 2026
+
+We're excited to introduce Version 2.5.0, bringing new security features, performance improvements, and important bug fixes to enhance your experience.
+
+---
+
+## ✨ New Features
+
+### Dark Mode
+
+Users can now switch between Light Mode and Dark Mode for a more comfortable viewing experience.
+
+### Two-Factor Authentication (2FA)
+
+Added optional two-factor authentication to provide an additional layer of account security during sign-in.
+
+---
+
+## 🚀 Improvements
+
+- Improved dashboard loading performance.
+- Enhanced mobile responsiveness across supported devices.
+- Optimized application stability and responsiveness.
+
+---
+
+## 🐞 Bug Fixes
+
+- Fixed an issue that caused file uploads to fail under certain conditions.
+- Resolved duplicate notification messages appearing for some users.
+
+---
+
+## ⚠️ Deprecations
+
+### Legacy Calendar Integration
+
+Support for the legacy calendar integration has been deprecated and will be removed in a future release.
+
+Users should begin migrating to the new calendar integration.
+
+---
+
+## Known Issues
+
+Some users may experience delayed email notifications.
+
+Our engineering team is actively investigating this issue, and a fix will be included in a future update.
+
+---
+
+## Upgrade Recommendation
+
+All users are encouraged to upgrade to Version 2.5.0 to benefit from improved security, better performance, and important bug fixes.
+
+---
+
+# Why These Release Notes Are Effective
+
+- Clearly separates features, improvements, bug fixes, and known issues.
+- Uses concise, user-friendly language.
+- Highlights important changes without unnecessary technical detail.
+- Follows a consistent structure commonly used in software releases.
+- Helps users understand what has changed and whether any action is required.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Good release notes balance completeness with brevity. Users want to quickly understand what's new, what's fixed, and whether they need to take any action after updating.
+
+---
+
+## What I'd Do Differently
+
+For enterprise software, I would also include:
+
+- Supported platform versions
+- Security advisories
+- Migration instructions
+- Links to detailed documentation
+- Issue tracking references
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- Release Documentation
+- Product Communication
+- Change Log Writing
+- Information Organization
+- Software Documentation
+
+---
+
+# Final Outcome
+
+The release notes provide a clear, professional summary of Version 2.5.0, helping users understand new features, improvements, resolved issues, and known limitations while following industry-standard documentation practices.
