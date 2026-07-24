@@ -1,0 +1,239 @@
+# Project 007 — Exploratory Testing
+
+## Date
+
+2026-07-24
+
+## Category
+
+QA Testing
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Exploratory Testing, Risk Analysis, Defect Discovery
+
+---
+
+# Objective
+
+Perform exploratory testing on a web application's task management module without predefined test cases. Document observations, discovered defects, potential risks, and recommendations for improvement.
+
+---
+
+# Scenario
+
+You are testing the **Task Management** module of a project management application.
+
+Features include:
+
+- Create Task
+- Edit Task
+- Delete Task
+- Assign Task
+- Mark Task Complete
+- Search Tasks
+
+No predefined test cases are provided.
+
+Your objective is to explore the application naturally and identify any usability, functional, or stability issues.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Coverage | Were different workflows explored? |
+| Observation Quality | Were meaningful findings documented? |
+| Risk Identification | Were potential issues identified? |
+| Documentation | Are findings clearly recorded? |
+| Critical Thinking | Were realistic scenarios explored? |
+
+---
+
+# Testing Strategy
+
+The following workflows were explored:
+
+- Creating multiple tasks
+- Editing task information
+- Assigning tasks to users
+- Completing tasks
+- Deleting tasks
+- Searching tasks
+- Switching between pages
+- Rapid user interactions
+- Invalid user inputs
+
+---
+
+# Findings
+
+## Finding 1
+
+### Observation
+
+The application allows users to create duplicate task names.
+
+### Impact
+
+Large projects may become difficult to manage because users cannot easily distinguish between identical tasks.
+
+### Severity
+
+🟡 Medium
+
+---
+
+## Finding 2
+
+### Observation
+
+The search results are case-sensitive.
+
+Example:
+
+Searching for:
+
+```
+design
+```
+
+returns results.
+
+Searching for:
+
+```
+Design
+```
+
+returns different results.
+
+### Impact
+
+Users may believe tasks do not exist.
+
+### Severity
+
+🟠 Medium
+
+---
+
+## Finding 3
+
+### Observation
+
+Rapidly clicking the **Complete Task** button multiple times creates duplicate completion notifications.
+
+### Impact
+
+Users receive unnecessary notifications.
+
+### Severity
+
+🟡 Low
+
+---
+
+## Finding 4
+
+### Observation
+
+Deleting a task immediately removes it without asking for confirmation.
+
+### Impact
+
+Users may accidentally delete important work.
+
+### Severity
+
+🟠 High
+
+---
+
+# Risks Identified
+
+| Risk | Likelihood | Impact |
+|------|------------|--------|
+| Accidental task deletion | Medium | High |
+| Duplicate task names | High | Medium |
+| Confusing search behavior | Medium | Medium |
+| Notification spam | Low | Low |
+
+---
+
+# Positive Observations
+
+- Task creation is intuitive.
+- Navigation is responsive.
+- Page loading is fast.
+- Task editing updates instantly.
+- User interface is clean and easy to understand.
+
+---
+
+# Recommendations
+
+- Add duplicate task detection or warnings.
+- Make search functionality case-insensitive.
+- Disable repeated clicks while actions are processing.
+- Display a confirmation dialog before deleting tasks.
+- Introduce an "Undo Delete" option.
+
+---
+
+# Test Summary
+
+| Metric | Result |
+|---------|--------|
+| Features Explored | 6 |
+| Issues Found | 4 |
+| High Severity | 1 |
+| Medium Severity | 2 |
+| Low Severity | 1 |
+
+---
+
+# Why This Exploratory Testing Is Effective
+
+- Covers realistic user behavior rather than scripted scenarios.
+- Identifies usability issues alongside functional defects.
+- Documents both strengths and weaknesses.
+- Provides actionable recommendations.
+- Helps uncover issues traditional test cases may overlook.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Exploratory testing encourages curiosity and critical thinking. By interacting with the application naturally, I discovered usability concerns and workflow issues that might not be identified through predefined test cases alone.
+
+---
+
+## What I'd Do Differently
+
+For a production system, I would perform exploratory testing across multiple browsers, devices, and user roles. I would also combine exploratory testing with session-based testing to ensure comprehensive coverage while maintaining clear documentation of findings.
+
+---
+
+# Skills Demonstrated
+
+- Exploratory Testing
+- Quality Assurance
+- Risk Analysis
+- Defect Discovery
+- Usability Testing
+- Critical Thinking
+- Test Documentation
+
+---
+
+# Final Outcome
+
+The exploratory testing session successfully evaluated the Task Management module beyond predefined scenarios, uncovering usability concerns and functional improvements while confirming that the application's core functionality remains stable. The findings provide actionable recommendations that can improve user experience before production release.
