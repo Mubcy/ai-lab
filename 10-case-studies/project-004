@@ -1,0 +1,321 @@
+# Case Study 004 — AI Coding Assistant Evaluation
+
+## Date
+
+2026-07-24
+
+## Category
+
+Case Studies
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+End-to-End AI Code Evaluation, Software Engineering Review
+
+---
+
+# Objective
+
+Evaluate an AI-generated Python solution submitted by a coding assistant. Assess the implementation for functional correctness, requirement compliance, readability, maintainability, performance, security, testing readiness, and production suitability. Provide a recommendation supported by evidence.
+
+---
+
+# Scenario
+
+A development team is testing an AI coding assistant that generates backend utility functions.
+
+The assistant was asked to implement a function for creating user accounts.
+
+Before integrating the generated code into production, the engineering team requires a comprehensive review.
+
+---
+
+# User Prompt
+
+Create a Python function that registers a new user.
+
+Requirements:
+
+- Username cannot be empty.
+- Email must contain "@"
+- Password must contain at least 8 characters.
+- Duplicate usernames are not allowed.
+- Passwords must not be stored in plain text.
+- Return the created user object.
+
+---
+
+# AI-Generated Code
+
+```python
+users = []
+
+def register(username, email, password):
+    for user in users:
+        if user["username"] == username:
+            return None
+
+    if "@" not in email:
+        return None
+
+    if len(password) < 8:
+        return None
+
+    user = {
+        "username": username,
+        "email": email,
+        "password": password
+    }
+
+    users.append(user)
+
+    return user
+```
+
+---
+
+# Evaluation Framework
+
+| Area | Weight |
+|------|--------:|
+| Requirement Compliance | 20% |
+| Functional Correctness | 20% |
+| Code Quality | 15% |
+| Performance | 10% |
+| Security | 20% |
+| Testing Readiness | 10% |
+| Production Readiness | 5% |
+
+---
+
+# Evaluation
+
+## 1. Requirement Compliance
+
+### Results
+
+| Requirement | Status |
+|------------|--------|
+| Username required | ❌ |
+| Email validation | ✅ |
+| Password length | ✅ |
+| Duplicate usernames | ✅ |
+| Password not stored in plain text | ❌ |
+| Return created object | ✅ |
+
+**Rating:** 3 / 5
+
+---
+
+## 2. Functional Correctness
+
+### Rating
+
+**4 / 5**
+
+The implementation correctly registers valid users and rejects duplicate usernames.
+
+However, empty usernames are accepted, violating the specification.
+
+---
+
+## 3. Code Quality
+
+### Rating
+
+**4 / 5**
+
+Strengths:
+
+- Good variable names.
+- Simple control flow.
+- Easy to understand.
+
+Weaknesses:
+
+- No docstring.
+- No type hints.
+- Validation and business logic are tightly coupled.
+
+---
+
+## 4. Performance
+
+### Rating
+
+**4 / 5**
+
+Duplicate detection requires scanning every registered user.
+
+Time Complexity:
+
+```
+O(n)
+```
+
+This approach is acceptable for small datasets but does not scale efficiently.
+
+---
+
+## 5. Security
+
+### Rating
+
+**1 / 5**
+
+Critical Findings:
+
+- Password stored in plain text.
+- No password hashing.
+- No input sanitization.
+- No secure credential management.
+
+These issues make the implementation unsuitable for production.
+
+---
+
+## 6. Testing Readiness
+
+### Rating
+
+**4 / 5**
+
+Recommended unit tests include:
+
+- Empty username
+- Invalid email
+- Duplicate username
+- Password length boundary
+- Valid registration
+- Unicode usernames
+- Invalid data types
+
+---
+
+## 7. Production Readiness
+
+### Rating
+
+**2 / 5**
+
+Although the implementation works for simple demonstrations, critical security issues prevent production deployment.
+
+---
+
+# Strengths
+
+- Simple implementation.
+- Correct duplicate detection.
+- Readable code.
+- Easy to maintain.
+- Meets most functional requirements.
+
+---
+
+# Weaknesses
+
+- Plain-text password storage.
+- Missing username validation.
+- Weak email validation.
+- Limited scalability.
+- Missing documentation.
+- No structured error handling.
+
+---
+
+# Risk Assessment
+
+| Issue | Severity | Business Impact |
+|------|----------|-----------------|
+| Plain-text passwords | 🔴 Critical | Critical |
+| Missing username validation | 🟠 Medium | Medium |
+| Weak email validation | 🟡 Low | Low |
+| Linear duplicate lookup | 🟡 Low | Medium |
+
+---
+
+# Recommended Improvements
+
+## High Priority
+
+- Hash passwords before storing them.
+- Validate empty usernames.
+- Return descriptive errors or raise exceptions.
+
+---
+
+## Medium Priority
+
+- Separate validation into helper functions.
+- Improve email validation.
+- Replace the in-memory list with persistent storage.
+
+---
+
+## Low Priority
+
+- Add type hints.
+- Add documentation.
+- Improve automated test coverage.
+- Add logging for registration events.
+
+---
+
+# Overall Evaluation
+
+| Category | Rating (/5) |
+|----------|-------------|
+| Requirement Compliance | 3 |
+| Functional Correctness | 4 |
+| Code Quality | 4 |
+| Performance | 4 |
+| Security | 1 |
+| Testing Readiness | 4 |
+| Production Readiness | 2 |
+
+Overall Score:
+
+**3.1 / 5**
+
+---
+
+# Final Recommendation
+
+## Decision
+
+❌ **Not Approved for Production**
+
+### Reason
+
+Although the implementation is readable and satisfies several functional requirements, it contains critical security flaws—most notably storing passwords in plain text—and fails to enforce all required validation rules. These issues present unacceptable risks for a production environment.
+
+---
+
+# Reflection
+
+## What I Learned
+
+Evaluating AI-generated code requires balancing functionality, security, maintainability, and compliance with requirements. Code that appears correct at first glance may still be unsuitable for production because of hidden security or validation issues.
+
+---
+
+## Skills Demonstrated
+
+- AI Code Evaluation
+- Requirement Validation
+- Security Assessment
+- Performance Analysis
+- Code Review
+- Risk Assessment
+- Production Readiness Evaluation
+- Technical Documentation
+
+---
+
+# Final Outcome
+
+This evaluation determined that the AI-generated implementation provides a functional starting point but is not suitable for production. The review identified critical security vulnerabilities, incomplete requirement compliance, and maintainability improvements, resulting in a recommendation to revise the implementation before deployment.
