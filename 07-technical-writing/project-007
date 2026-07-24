@@ -1,0 +1,226 @@
+# Project 007 — Writing an Installation Guide
+
+## Date
+
+2026-07-24
+
+## Category
+
+Technical Writing
+
+## Difficulty
+
+Advanced
+
+## Focus
+
+Installation Documentation, Software Setup, User Onboarding
+
+---
+
+# Objective
+
+Create a step-by-step installation guide for a software application. The guide should include system requirements, installation steps, initial configuration, troubleshooting, and verification to ensure users can successfully install and use the software.
+
+---
+
+# Scenario
+
+You are writing documentation for **TaskFlow**, a desktop task management application available for Windows, macOS, and Linux.
+
+---
+
+# Evaluation Criteria
+
+| Criteria | Description |
+|----------|-------------|
+| Clarity | Are the instructions easy to follow? |
+| Completeness | Are all installation steps included? |
+| Organization | Is the guide logically structured? |
+| Accuracy | Are the instructions technically correct? |
+| User-Friendliness | Can a first-time user complete the installation successfully? |
+
+---
+
+# Installation Guide
+
+# Installing TaskFlow
+
+This guide explains how to install and configure TaskFlow on your computer.
+
+---
+
+# System Requirements
+
+Before installing TaskFlow, ensure your system meets the following requirements:
+
+| Requirement | Minimum |
+|------------|---------|
+| Operating System | Windows 10+, macOS 12+, Ubuntu 22.04+ |
+| RAM | 4 GB |
+| Storage | 500 MB available space |
+| Internet | Required for initial sign-in and updates |
+
+---
+
+# Download TaskFlow
+
+1. Visit the official TaskFlow download page.
+2. Select the version for your operating system.
+3. Download the installer.
+
+---
+
+# Windows Installation
+
+1. Open the downloaded `.exe` installer.
+2. Accept the license agreement.
+3. Choose the installation location.
+4. Click **Install**.
+5. Wait for the installation to complete.
+6. Click **Finish**.
+
+---
+
+# macOS Installation
+
+1. Open the downloaded `.dmg` file.
+2. Drag **TaskFlow** into the **Applications** folder.
+3. Open the application from **Applications**.
+4. If prompted, allow the application through macOS security settings.
+
+---
+
+# Linux Installation
+
+Install using the package manager:
+
+```bash
+sudo dpkg -i taskflow.deb
+sudo apt-get install -f
+```
+
+For RPM-based distributions:
+
+```bash
+sudo rpm -ivh taskflow.rpm
+```
+
+---
+
+# First-Time Setup
+
+When launching TaskFlow for the first time:
+
+1. Sign in to your account.
+2. Accept the Terms of Service.
+3. Choose your preferred theme.
+4. Enable notifications if desired.
+5. Complete the onboarding tutorial.
+
+---
+
+# Verify Installation
+
+The installation is successful if:
+
+- The application opens without errors.
+- You can sign in successfully.
+- The dashboard loads correctly.
+- You can create a new task.
+
+---
+
+# Troubleshooting
+
+## Installer Won't Open
+
+Possible causes:
+
+- Corrupted download
+- Unsupported operating system
+
+Solution:
+
+- Download the installer again.
+- Verify your operating system meets the minimum requirements.
+
+---
+
+## Unable to Sign In
+
+Possible causes:
+
+- Incorrect credentials
+- No internet connection
+
+Solution:
+
+- Check your email and password.
+- Verify your internet connection.
+- Reset your password if necessary.
+
+---
+
+## Application Crashes on Startup
+
+Possible causes:
+
+- Outdated operating system
+- Corrupted installation
+
+Solution:
+
+- Restart your computer.
+- Reinstall TaskFlow.
+- Install the latest system updates.
+
+---
+
+# Best Practices
+
+- Always download TaskFlow from the official website.
+- Keep the application updated.
+- Enable automatic updates.
+- Back up important data regularly.
+
+---
+
+# Why This Guide Is Effective
+
+- Covers installation for multiple operating systems.
+- Includes system requirements before installation.
+- Provides verification steps after setup.
+- Addresses common installation problems.
+- Uses a clear, step-by-step structure.
+
+---
+
+# Reflection
+
+## What I Learned
+
+A good installation guide helps users succeed before they encounter problems. Including prerequisites, verification steps, and troubleshooting reduces frustration and support requests.
+
+---
+
+## What I'd Do Differently
+
+For a production-ready guide, I would include screenshots of each installation step, platform-specific notes, download links, checksum verification for installers, and a section covering software updates and uninstallation.
+
+---
+
+# Skills Demonstrated
+
+- Technical Writing
+- Installation Documentation
+- User Onboarding
+- Troubleshooting Documentation
+- Information Architecture
+- Technical Communication
+
+---
+
+# Final Outcome
+
+The installation guide provides complete instructions for installing TaskFlow across supported operating systems, verifies successful setup, and helps users resolve common installation issues independently.
